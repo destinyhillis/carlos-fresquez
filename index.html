@@ -112,6 +112,13 @@
       // console.log(illustrations)
 
       if (illustrations.length) {
+        let sectionTitle = `
+          <div class="d-flex justify-content-between pb-3">
+            <h3 class="section-heading text-uppercase">Illustrations</h3>
+          </div>
+        `
+
+        $('#sections').append(sectionTitle)
         
         illustrations.forEach(item => {
           const section = `
