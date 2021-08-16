@@ -55,12 +55,12 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
               <li class="nav-item"><a class="nav-link" href="./paintings.html">Paintings</a></li>
-              <li class="nav-item"><a class="nav-link" href="./print.html">Print</a></li>
+              <li class="nav-item"><a class="nav-link" href="./prints.html">Print</a></li>
               <li class="nav-item">
-                <a class="nav-link" href="./installation.html">Installation</a>
+                <a class="nav-link" href="./installations.html">Installation</a>
               </li>
               <li class="nav-item"><a class="nav-link" href="./mixed-media.html">Mixed Media</a></li>
-              <li class="nav-item"><a class="nav-link" href="./illustration.html">Illustration</a></li>
+              <li class="nav-item"><a class="nav-link" href="./illustrations.html">Illustration</a></li>
               <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
             </ul>
           </div>
@@ -71,8 +71,7 @@
     <!-- Portfolio Grid-->
     <section class="page-section bg-light" id="portfolio">
       <div class="container">
-        <div class="row" id="sections">
-        </div>
+        <div class="row" id="sections"></div>
       </div>
     </section>
 
@@ -89,6 +88,9 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modals-->
+    <div id="modals"></div>
 
     
     </div>
@@ -115,7 +117,7 @@
           const section = `
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="portfolioModal${item.id}">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal${item.id}">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <div class="portfolio-caption-heading text-center p-3">
@@ -132,7 +134,57 @@
             </div>
           `
 
+          const modal = `
+            <div
+              class="portfolio-modal modal fade"
+              id="portfolioModal${item.id}"
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="close-modal" data-bs-dismiss="modal">
+                    <img src="assets/close-icon.svg" alt="Close modal" />
+                  </div>
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8">
+                        <div class="modal-body">
+                          <!-- Project details-->
+                          <h2 class="text-uppercase">${item.title}</h2>
+                          <p class="item-intro text-muted">
+                            ${item.medium}
+                          </p>
+                          <p class="item-intro text-muted">
+                            ${item.year}
+                          </p>
+                          <p class="item-intro text-muted">
+                            ${item.other}
+                          </p>
+                          <img
+                            class="img-fluid d-block mx-auto"
+                            src="${item.slug}${item.id}.jpg"
+                            alt="..."
+                          />
+                          <button
+                            class="btn btn-primary btn-xl text-uppercase"
+                            data-bs-dismiss="modal"
+                            type="button"
+                          >
+                            <i class="fas fa-times me-1"></i>
+                            Close Project
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          `
+
           $('#sections').append(section)
+          $('#modals').append(modal)
         })
       }
       // if (paintings.length) {
