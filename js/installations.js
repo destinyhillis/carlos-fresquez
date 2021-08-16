@@ -6,7 +6,7 @@ for (let i = 1; i <= 14; i++){
         {
             id: i,
             title: 'Codices of the Barrio; An Anti Gang Ofrenda',
-            medium: 'Installation',
+            medium: 'installation',
             year: '1991',
             other: 'EDGE Gallery, Photography by Chuck Ault',
             slug: './assets/img/installation/1990s'
@@ -18,7 +18,7 @@ installations.push(
     {
     id: 15,
     title: 'Altar para mi Abuelo, Fernando Fresquez',
-    medium: 'Installation',
+    medium: 'installation',
     year: '1998',
     other: `Mixed Media with my Grandfather's 1930's Saddle`,
     slug: './assets/img/installation/1990s'
@@ -26,7 +26,7 @@ installations.push(
     {
         id: 16,
         title: 'Altar para mi Abuelo, Fernando Fresquez',
-        medium: 'Installation',
+        medium: 'installation',
         year: '1998',
         other: `Mixed Media with my Grandfather's 1930's Saddle`,
         slug: './assets/img/installation/1990s'
@@ -38,7 +38,7 @@ for (let i = 17; i <= 23; i++){
         {
             id: i,
             title: 'El Espejo: Checking the Rearview of Chicano Time',
-            medium: 'Installation',
+            medium: 'installation',
             year: '1995',
             other: '',
             slug: './assets/img/installation/1990s'
@@ -51,7 +51,7 @@ for (let i = 24; i <= 33; i++){
         {
             id: i,
             title: 'Mi Casa es Su Casa',
-            medium: 'Installation',
+            medium: 'installation',
             year: '1995',
             other: 'Photography by Chuck Ault',
             slug: './assets/img/installation/1990s'
@@ -64,7 +64,7 @@ for (let i = 34; i <= 39; i++){
         {
             id: i,
             title: 'Lagrima/Teardrop',
-            medium: 'Installation',
+            medium: 'installation',
             year: '1998',
             other: 'Photography by Chuck Ault',
             slug: './assets/img/installation/1990s'
@@ -77,7 +77,7 @@ for (let i = 40; i <= 46; i++){
         {
             id: i,
             title: 'Lagrima/Teardrop',
-            medium: 'Installation',
+            medium: 'installation',
             year: '1998',
             other: '',
             slug: './assets/img/installation/1990s'
@@ -89,7 +89,7 @@ installations.push(
     {
         id: 47,
         title: '',
-        medium: 'Installation',
+        medium: 'installation',
         year: '',
         other: '',
         slug: './assets/img/installation/1990s'
@@ -100,7 +100,7 @@ installations.push(
     {
         id: 48,
         title: '',
-        medium: 'Installation',
+        medium: 'installation',
         year: '',
         other: '',
         slug: './assets/img/installation/2000s'
@@ -108,7 +108,7 @@ installations.push(
     {
         id: 49,
         title: 'Los Supersonicos',
-        medium: 'Installation',
+        medium: 'installation',
         year: '',
         other: '',
         slug: './assets/img/installation/2000s'
@@ -116,7 +116,7 @@ installations.push(
     {
         id: 50,
         title: 'Los Supersonicos',
-        medium: 'Installation',
+        medium: 'installation',
         year: '',
         other: '',
         slug: './assets/img/installation/2000s'
@@ -124,7 +124,7 @@ installations.push(
     {
         id: 51,
         title: '',
-        medium: 'Installation',
+        medium: 'installation',
         year: '2005',
         other: '',
         slug: './assets/img/installation/2000s'
@@ -132,7 +132,7 @@ installations.push(
     {
         id: 52,
         title: 'Homage to Jim Dine',
-        medium: 'Installation',
+        medium: 'installation',
         year: '',
         other: '',
         slug: './assets/img/installation/2000s'
@@ -140,7 +140,7 @@ installations.push(
     {
         id: 53,
         title: '',
-        medium: 'Installation',
+        medium: 'installation',
         year: '',
         other: '',
         slug: './assets/img/installation/2000s'
@@ -148,7 +148,7 @@ installations.push(
     {
         id: 54,
         title: 'La Escalera',
-        medium: 'Installation',
+        medium: 'installation',
         year: '',
         other: '',
         slug: './assets/img/installation/2000s'
@@ -156,7 +156,7 @@ installations.push(
     {
         id: 55,
         title: 'Ofreda para mi Abuela-Lorencita Fresquez',
-        medium: 'Installation',
+        medium: 'installation',
         year: '2001',
         other: '',
         slug: './assets/img/installation/2000s'
@@ -164,7 +164,7 @@ installations.push(
     {
         id: 56,
         title: 'Ofreda para mi Abuela-Lorencita Fresquez (detail)',
-        medium: 'Installation',
+        medium: 'installation',
         year: '2001',
         other: '',
         slug: './assets/img/installation/2000s'

@@ -2,7 +2,7 @@ const prints = [
     {
         id: '1',
         title: 'Charro Muerto',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1991',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -10,7 +10,7 @@ const prints = [
     {
         id: '2',
         title: 'El Lowrider en Los Rockies',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1991',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -26,7 +26,7 @@ const prints = [
     {
         id: '4',
         title: 'El Codex del Pachucada',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1992',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -34,7 +34,7 @@ const prints = [
     {
         id: '5',
         title: 'Ta-Kill-Ya',
-        medium: 'Lithograph on Paper',
+        medium: 'lithograph on paper',
         year: '1993',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -42,7 +42,7 @@ const prints = [
     {
         id: '6',
         title: 'A Westside Wedding',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1993',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -50,7 +50,7 @@ const prints = [
     {
         id: '7',
         title: 'San Francisco en Ranchos',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1994',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -58,7 +58,7 @@ const prints = [
     {
         id: '8',
         title: 'A Rough Ride',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1994',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -66,7 +66,7 @@ const prints = [
     {
         id: '9',
         title: 'El Gallo',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1998',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -74,7 +74,7 @@ const prints = [
     {
         id: '10',
         title: '¡Despiertate! Wake Up!',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1998',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -82,7 +82,7 @@ const prints = [
     {
         id: '11',
         title: 'Tortillas; Hecho en Aztlan',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1998',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -90,7 +90,7 @@ const prints = [
     {
         id: '12',
         title: 'Tortillas; Hecho en Aztlan',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1998',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -98,7 +98,7 @@ const prints = [
     {
         id: '13',
         title: 'Tortillas; Hecho en Aztlan',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1998',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -106,7 +106,7 @@ const prints = [
     {
         id: '14',
         title: 'Tortillas; Hecho en Aztlan',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1998',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -114,7 +114,7 @@ const prints = [
     {
         id: '15',
         title: 'Tortillas; Hecho en Aztlan',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1998',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -122,7 +122,7 @@ const prints = [
     {
         id: '16',
         title: 'Tortillas; Hecho en Aztlan',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1998',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -130,7 +130,7 @@ const prints = [
     {
         id: '17',
         title: 'Tortillas; Hecho en Aztlan',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1998',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -138,7 +138,7 @@ const prints = [
     {
         id: '18',
         title: 'Tortillas; Hecho en Aztlan',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1998',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -146,7 +146,7 @@ const prints = [
     {
         id: '19',
         title: 'Tortillas; Hecho en Aztlan',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '1998',
         other: '',
         slug: './assets/img/print/1990s/'
@@ -154,7 +154,7 @@ const prints = [
     {
         id: '20',
         title: 'Sueños de Frida',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '2000',
         other: ' collaborative print - with Sylvia Montero',
         slug: './assets/img/print/2000s/'
@@ -162,7 +162,7 @@ const prints = [
     {
         id: '21',
         title: 'El Sol Que tu Eres',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '2005',
         other: '',
         slug: './assets/img/print/2000s/'
@@ -170,7 +170,7 @@ const prints = [
     {
         id: '22',
         title: 'Serafin',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '2006',
         other: '',
         slug: './assets/img/print/2000s/'
@@ -178,7 +178,7 @@ const prints = [
     {
         id: '23',
         title: 'A Fairy Tale',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '2007',
         other: '',
         slug: './assets/img/print/2000s/'
@@ -186,7 +186,7 @@ const prints = [
     {
         id: '24',
         title: 'A Westside Wedding (El Aniversario)',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '2007',
         other: '',
         slug: './assets/img/print/2000s/'
@@ -194,7 +194,7 @@ const prints = [
     {
         id: '25',
         title: 'Calaca I',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '2011',
         other: '',
         slug: './assets/img/print/2010s/'
@@ -202,7 +202,7 @@ const prints = [
     {
         id: '26',
         title: 'Calaca II',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '2012',
         other: '',
         slug: './assets/img/print/2010s/'
@@ -210,7 +210,7 @@ const prints = [
     {
         id: '27',
         title: 'Raza Powered',
-        medium: 'Screenprint on Paper',
+        medium: 'screenprint on paper',
         year: '2015',
         other: '',
         slug: './assets/img/print/2010s/'

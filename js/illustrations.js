@@ -2,7 +2,7 @@ const illustrations = [
     {
         id: '1',
         title: 'eRACEd  Cartooning',
-        medium: 'Graphite on Paper',
+        medium: 'graphite on paper',
         year: '1992',
         other: '',
         slug: './assets/img/illustration/1990s/'
@@ -10,7 +10,7 @@ const illustrations = [
     {
         id: '2',
         title: 'The Cubist Cholo',
-        medium: 'Pastel and Color Pencil on Paper',
+        medium: 'pastel and color pencil on paper',
         year: '1992',
         other: '',
         slug: './assets/img/illustration/1990s/'
