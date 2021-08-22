@@ -39,7 +39,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
         <div class="container">
-          <a class="navbar-brand" href="#page-top">Carlos Frésquez</a>
+          <a class="navbar-brand" href="./index.html">Carlos Frésquez</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -54,13 +54,12 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-              <li class="nav-item"><a class="nav-link" href="./paintings.html">Paintings</a></li>
-              <li class="nav-item"><a class="nav-link" href="./prints.html">Print</a></li>
+              <li class="nav-item"><a class="nav-link" href="./painting.html">Painting</a></li>
+              <li class="nav-item"><a class="nav-link" href="./print.html">Print</a></li>
               <li class="nav-item">
-                <a class="nav-link" href="./installations.html">Installation</a>
+                <a class="nav-link" href="./installation.html">Installation</a>
               </li>
               <li class="nav-item"><a class="nav-link" href="./mixed-media.html">Mixed Media</a></li>
-              <li class="nav-item"><a class="nav-link" href="./illustrations.html">Illustration</a></li>
               <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
             </ul>
           </div>
@@ -74,6 +73,9 @@
         <div class="row" id="sections"></div>
       </div>
     </section>
+    <!-- Pagination -->
+    <div id="data-container"></div>
+    <div id="pagination-container"></div>
 
     <!-- Footer-->
     <footer class="footer py-4">
@@ -91,10 +93,8 @@
 
     <!-- Modals-->
     <div id="modals"></div>
-
     
     </div>
-   
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -102,108 +102,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/sections.js"></script>
-    <script src="js/installations.js"></script>
+    <script src="js/installation.js"></script>
     <script src="js/mixedMedia.js"></script>
     <script src="js/paintings.js"></script>
     <script src="js/prints.js"></script>
-    <script>
-      // console.log(modalTemplate)
-      console.log(installations)
 
-      if (installations.length) {
-        let sectionTitle = `
-          <div class="d-flex justify-content-between pb-3">
-            <h3 class="section-heading text-uppercase">Installations</h3>
-          </div>
-        `
-
-        $('#sections').append(sectionTitle)
-        
-        installations.forEach(item => {
-          const section = `
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal${item.id}">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <div class="portfolio-caption-heading text-center p-3">
-                                    <h4>${item.title}</h4>
-                                    <button type="button" class="btn btn-outline-light mt-4">
-                                        <i class="fas fa-plus"></i> More info
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src=${item.slug}${item.id}.jpg alt="..."/>
-                    </a>
-                </div>
-            </div>
-          `
-
-          const modal = `
-            <div
-              class="portfolio-modal modal fade"
-              id="portfolioModal${item.id}"
-              tabindex="-1"
-              role="dialog"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content p-3">
-                  <div class="close-modal" data-bs-dismiss="modal">
-                    <img src="assets/close-icon.svg" alt="Close modal" />
-                  </div>
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-lg-10">
-                        <div class="modal-body">
-                          <!-- Project details-->
-                          <h2 class="text-uppercase">${item.title}</h2>
-                          <div class="text-muted">
-                            ${item.medium &&
-                              `<div>
-                                ${item.medium}
-                              </div>`
-                            }
-                            ${item.year &&
-                              `<div>
-                                ${item.year}
-                              </div>`
-                            }
-                            ${item.other &&
-                              `
-                                <div class="mb-2">
-                                  ${item.other}
-                                </div>
-                              `
-                            }
-                          </div>
-
-                          <img
-                            class="img-fluid d-block mx-auto"
-                            src="${item.slug}${item.id}.jpg"
-                            alt="..."
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          `
-
-          $('#sections').append(section)
-          $('#modals').append(modal)
-        })
-      }
-      // if (paintings.length) {
-      //     paintings.forEach(painting => {
-      //       console.log(painting)
-      //       let section = `<div class="col-lg-4 col-sm-6 mb-4"><div class="portfolio-item"><a class="portfolio-link" data-bs-toggle="modal" href="paintingModal${painting.id}"><div class="portfolio-hover"><div class="portfolio-hover-content"><div class="portfolio-caption-heading text-center p-3"><h4>${painting.title}</h4><button type="button" class="btn btn-outline-light mt-4"><i class="fas fa-plus"></i> More info</button></div></div></div><img class="img-fluid" src=${painting.img} alt="..."/></a></div></div>`
-      //       $('#painting-section').append(section)
-      //     })
-      // }
-        
-    </script>
   </body>
 </html>
