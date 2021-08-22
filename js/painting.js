@@ -912,14 +912,6 @@ const paintings = [
         slug: './assets/img/painting/2000s/'
     },
     {
-        id: '115',
-        title: 'Salon de los Ilegales',
-        medium: 'altered thriftstore landscapes (ready-made added)',
-        year: '2005-present',
-        other: '',
-        slug: './assets/img/painting/2000s/'
-    },
-    {
         id: '116',
         title: 'Salon de los Ilegales',
         medium: 'altered thriftstore landscapes (ready-made added)',
