@@ -300,7 +300,7 @@ if (indexPainting.length) {
 
                   <img
                     class="img-fluid d-block mx-auto"
-                    src="${item.slug}${item.id}.jpg"
+                    src="${item.slug}.jpg"
                     alt="..."
                   />
                 </div>
@@ -402,7 +402,7 @@ if (indexPrint.length) {
 
                   <img
                     class="img-fluid d-block mx-auto"
-                    src="${item.slug}${item.id}.jpg"
+                    src="${item.slug}.jpg"
                     alt="..."
                   />
                 </div>
@@ -491,7 +491,7 @@ if (indexInstallation.length) {
 
                   <img
                     class="img-fluid d-block mx-auto"
-                    src="${item.slug}${item.id}.jpg"
+                    src="${item.slug}.jpg"
                     alt="..."
                   />
                 </div>
@@ -580,7 +580,7 @@ if (indexMixedMedia.length) {
 
                   <img
                     class="img-fluid d-block mx-auto"
-                    src="${item.slug}${item.id}.jpg"
+                    src="${item.slug}.jpg"
                     alt="..."
                   />
                 </div>
