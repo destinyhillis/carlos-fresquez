@@ -316,16 +316,15 @@ if (indexPainting.length) {
     $('#index-sections').append(section)
     $('#index-modals').append(modal)
   })
+
   const viewMoreButton = `
-  <div class="row justify-content-center">
-      <div class="col">
-          <a href="../painting.html">
-              <button type="button" class="btn btn-outline-light mt-4">
-                  <i class="fas fa-plus"></i> View More
-              </button>
-          </a>
-      </div>
-  </div>
+    <div class="text-center">
+        <a href="./painting.html">
+            <button type="button" class="btn btn-primary mb-4">
+                <i class="fas fa-plus"></i> View More
+            </button>
+        </a>
+    </div>
 `
 
   $('#index-sections').append(viewMoreButton)
@@ -420,6 +419,18 @@ if (indexPrint.length) {
     $('#index-sections').append(section)
     $('#index-modals').append(modal)
   })
+
+  const viewMoreButton = `
+    <div class="text-center">
+        <a href="./print.html">
+            <button type="button" class="btn btn-primary mb-4">
+                <i class="fas fa-plus"></i> View More
+            </button>
+        </a>
+    </div>
+  `
+
+  $('#index-sections').append(viewMoreButton)
 }
 
 if (indexInstallation.length) {
@@ -511,6 +522,18 @@ if (indexInstallation.length) {
     $('#index-sections').append(section)
     $('#index-modals').append(modal)
   })
+
+  const viewMoreButton = `
+    <div class="text-center">
+        <a href="./installation.html">
+            <button type="button" class="btn btn-primary mb-4">
+                <i class="fas fa-plus"></i> View More
+            </button>
+        </a>
+    </div>
+  `
+
+  $('#index-sections').append(viewMoreButton)
 }
 
 if (indexMixedMedia.length) {
@@ -602,4 +625,15 @@ if (indexMixedMedia.length) {
     $('#index-sections').append(section)
     $('#index-modals').append(modal)
   })
+  const viewMoreButton = `
+    <div class="text-center">
+        <a href="./mixed-media.html">
+            <button type="button" class="btn btn-primary mb-4">
+                <i class="fas fa-plus"></i> View More
+            </button>
+        </a>
+    </div>
+  `
+
+  $('#index-sections').append(viewMoreButton)
 }
