@@ -269,7 +269,7 @@ if (indexPainting.length) {
       <div class="modal-dialog">
         <div class="modal-content p-3">
           <div class="close-modal" data-bs-dismiss="modal">
-            <img src="assets/close-icon.svg" alt="Close modal" />
+            <i class="fas fa-times fa-2x" alt="Close modal"></i>
           </div>
           <div class="container">
             <div class="row justify-content-center">
@@ -305,6 +305,13 @@ if (indexPainting.length) {
                     src="${item.slug}.jpg"
                     alt="..."
                   />
+
+                  <div data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-primary mt-4">
+                      <i class="fas fa-times" alt="Close modal"></i> Close
+                    </button>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -372,7 +379,7 @@ if (indexPrint.length) {
       <div class="modal-dialog">
         <div class="modal-content p-3">
           <div class="close-modal" data-bs-dismiss="modal">
-            <img src="assets/close-icon.svg" alt="Close modal" />
+            <i class="fas fa-times fa-2x" alt="Close modal"></i>
           </div>
           <div class="container">
             <div class="row justify-content-center">
@@ -408,6 +415,13 @@ if (indexPrint.length) {
                     src="${item.slug}.jpg"
                     alt="..."
                   />
+
+                  <div data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-primary mt-4">
+                      <i class="fas fa-times" alt="Close modal"></i> Close
+                    </button>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -475,7 +489,7 @@ if (indexInstallation.length) {
       <div class="modal-dialog">
         <div class="modal-content p-3">
           <div class="close-modal" data-bs-dismiss="modal">
-            <img src="assets/close-icon.svg" alt="Close modal" />
+            <i class="fas fa-times fa-2x" alt="Close modal"></i>
           </div>
           <div class="container">
             <div class="row justify-content-center">
@@ -511,6 +525,13 @@ if (indexInstallation.length) {
                     src="${item.slug}.jpg"
                     alt="..."
                   />
+
+                  <div data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-primary mt-4">
+                      <i class="fas fa-times" alt="Close modal"></i> Close
+                    </button>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -578,7 +599,7 @@ if (indexMixedMedia.length) {
       <div class="modal-dialog">
         <div class="modal-content p-3">
           <div class="close-modal" data-bs-dismiss="modal">
-            <img src="assets/close-icon.svg" alt="Close modal" />
+            <i class="fas fa-times fa-2x" alt="Close modal"></i>
           </div>
           <div class="container">
             <div class="row justify-content-center">
@@ -614,6 +635,13 @@ if (indexMixedMedia.length) {
                     src="${item.slug}.jpg"
                     alt="..."
                   />
+
+                  <div data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-primary mt-4">
+                      <i class="fas fa-times" alt="Close modal"></i> Close
+                    </button>
+                  </div>
+
                 </div>
               </div>
             </div>

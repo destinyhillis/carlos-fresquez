@@ -1329,7 +1329,7 @@ if (paintings.length) {
           <div class="modal-dialog">
             <div class="modal-content p-3">
               <div class="close-modal" data-bs-dismiss="modal">
-                <img src="assets/close-icon.svg" alt="Close modal" />
+                <i class="fas fa-times fa-2x" alt="Close modal"></i>
               </div>
               <div class="container">
                 <div class="row justify-content-center">
@@ -1365,6 +1365,13 @@ if (paintings.length) {
                         src="${item.slug}${item.id}.jpg"
                         alt="..."
                       />
+
+                      <div data-bs-dismiss="modal">
+                        <button type="button" class="btn btn-primary mt-4">
+                          <i class="fas fa-times" alt="Close modal"></i> Close
+                        </button>
+                      </div>
+
                     </div>
                   </div>
                 </div>
