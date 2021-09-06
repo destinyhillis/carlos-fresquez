@@ -189,13 +189,14 @@ if (mixedMedia.length) {
 }
 
 $('#decade').change(function () {
+  // Clear page
+  $('#sections').html('')
+  $('#modals').html('')
+
   let decade = $('#decade').val()
   mixedMedia.forEach(item => {
     let slug = item.slug
     if (slug.includes(decade)) {
-      $('#sections').html('')
-      $('#modals').html('')
-
       const section = `
         <div class="col-lg-4 col-sm-6 mb-4">
             <div class="portfolio-item">
