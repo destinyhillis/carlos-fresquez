@@ -38,36 +38,59 @@
   <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-          <a class="navbar-brand" href="./index.html">Carlos Frésquez</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            Menu
-            <i class="fas fa-bars ms-1"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-              <li class="nav-item"><a class="nav-link" href="./painting.html">Painting</a></li>
-              <li class="nav-item"><a class="nav-link" href="./print.html">Print</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href="./installation.html">Installation</a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="./mixed-media.html">Mixed Media</a></li>
-              <li class="nav-item"><a class="nav-link" href="./cv.html">CV</a></li>
-            </ul>
-          </div>
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">Carlos Frésquez</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./painting.html">Painting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./print.html">Print</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./installation.html">Installation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./mixed-media.html">Mixed Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cv.html">CV</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!-- Portfolio Grid-->
     <section class="page-section bg-light" id="portfolio">
       <div class="container">
+        <div class="d-flex justify-content-between pb-3">
+          <h3 class="section-heading text-uppercase">Mixed Media</h3>
+
+          <label for="decade">
+            Decade:
+            <select class="form-select" id="decade">
+              <option value="" selected disabled hidden>Select a decade</option>
+              <option value="1980">1980's</option>
+              <option value="1990">1990's</option>
+              <option value="2000">2000's</option>
+              <option value="2010">2010's</option>
+            </select>
+          </label>
+        </div>
+
         <div class="row" id="sections"></div>
       </div>
     </section>
@@ -81,8 +104,9 @@
         <div class="text-center">
           &copy;
           <script>
-            document.write(new Date().getFullYear());
-          </script>. All images and content are the exclusive property of Carlos
+            document.write(new Date().getFullYear())
+          </script>
+          . All images and content are the exclusive property of Carlos
           Frésquez. All rights reserved.
         </div>
       </div>
@@ -90,15 +114,24 @@
 
     <!-- Modals-->
     <div id="modals"></div>
-    
-    </div>
-   
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/mixedMedia.js"></script>
-
   </body>
 </html>
