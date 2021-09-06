@@ -258,7 +258,7 @@ $('#decade').change(function () {
   let decade = $('#decade').val()
   installations.forEach(item => {
     let slug = item.slug
-    if (slug.includes(decade)) {
+    if (slug.includes(decade) || decade == 'all') {
       const section = `
         <div class="col-lg-4 col-sm-6 mb-4">
             <div class="portfolio-item">
