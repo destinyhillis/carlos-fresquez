@@ -229,7 +229,7 @@ const indexMixedMedia = [
 
 if (indexPainting.length) {
   let indexSectionTitle = `
-      <div class="d-flex justify-content-between pb-3">
+      <div class="d-flex justify-content-between pb-3 pt-3">
         <h3 class="section-heading text-uppercase">Painting</h3>
       </div>
     `
@@ -237,7 +237,7 @@ if (indexPainting.length) {
 
   indexPainting.reverse()
 
-  indexPainting.forEach((item) => {
+  indexPainting.forEach(item => {
     const section = `
     <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
@@ -347,7 +347,7 @@ if (indexPrint.length) {
 
   indexPrint.reverse()
 
-  indexPrint.forEach((item) => {
+  indexPrint.forEach(item => {
     const section = `
     <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
@@ -457,7 +457,7 @@ if (indexInstallation.length) {
 
   indexInstallation.reverse()
 
-  indexInstallation.forEach((item) => {
+  indexInstallation.forEach(item => {
     const section = `
     <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
@@ -567,7 +567,7 @@ if (indexMixedMedia.length) {
 
   indexMixedMedia.reverse()
 
-  indexMixedMedia.forEach((item) => {
+  indexMixedMedia.forEach(item => {
     const section = `
     <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
