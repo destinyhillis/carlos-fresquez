@@ -32,113 +32,325 @@
       rel="stylesheet"
     />
     <link href="css/styles.css" rel="stylesheet" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   </head>
   <body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand" href="./index.html">Carlos Frésquez</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          Menu
-          <i class="fas fa-bars ms-1"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="./painting.html">Painting</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./print.html">Print</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./installation.html">Installation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./mixed-media.html">Mixed Media</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./public-art.html">Public Art</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./set-design.html">Set Design</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./reference-materials.html"
-                >Reference Materials</a
-              >
-            </li>
-          </ul>
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">Carlos Frésquez</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        Menu
+        <i class="fas fa-bars ms-1"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+          <li class="nav-item"><a class="nav-link" href="./painting.html">Painting</a></li>
+          <li class="nav-item"><a class="nav-link" href="./print.html">Print</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="./installation.html">Installation</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="./mixed-media.html">Mixed Media</a></li>
+          <li class="nav-item"><a class="nav-link" href="./public-art.html">Public Art</a></li>
+          <li class="nav-item"><a class="nav-link" href="./set-design.html">Set Design</a></li>
+          <li class="nav-item"><a class="nav-link" href="./reference-materials.html">Reference Materials</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Portfolio Grid-->
+  <section class="page-section bg-light" id="portfolio">
+    <div class="container">
+      <div class="d-flex justify-content-between pb-3 pt-3">
+        <h3 class="section-heading text-uppercase">Set Design</h3>
+
+        <div class="d-flex"> 
+          <div class="select-label">
+            Decade:
+          </div>  
+          <select class="form-select" id="decade">
+            <option value="all" selected>All</option>
+            <option value="1990">1990's</option>
+            <option value="2000">2000's</option>
+            <option value="2020">2020's</option>
+          </select>
         </div>
       </div>
-    </nav>
-    <!-- Portfolio Grid-->
-    <section class="page-section bg-light text-center" style="margin: 10% 0">
-      <i class="fas fa-tools fa-7x" style="margin-bottom: 0.25em"></i>
-      <h1>Under Construction</h1>
-      <h2>New section coming soon</h2>
-    </section>
 
-    <!-- Footer-->
-    <footer class="footer py-4">
-      <div class="container">
-        <div class="text-center">
-          &copy;
-          <script>
-            document.write(new Date().getFullYear())
-          </script>
-          . All images and content are the exclusive property of Carlos
-          Frésquez. All rights reserved.
-        </div>
+      <div class="row" id="sections"></div>
+    </div>
+  </section>
+
+  <!-- Set Design Table -->
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Year</td>
+          <th scope="col">Title</td>
+          <th scope="col">Theater</td>
+          <th scope="col">Location</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2022</td>
+          <th scope="row">Refuge</th>
+          <td>The Curious Theater (mural backdrop)</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <th scope="row">La Carpa Aztlan,</th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <th scope="row">El Sol Que tu Eres</th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <th scope="row">The Gospel at Colonus</th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>2009</td>
+          <th scope="row">Bless Me Ultima</th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>2008</td>
+          <th scope="row">Braided Sorrow<span class="text-muted" style="font-weight: lighter;">*</span></th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td></td>
+          <th scope="row">When Pigs Fly and Men Have Babies</th>
+          <td>Ricketson Theatre, Denver Center for the Performing Arts</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>2007</td>
+          <th scope="row">Ollin<span class="text-muted" style="font-weight: lighter;">*</span></th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>2005</td>
+          <th scope="row">El Sol Que tu Eres</th>
+          <td>King Center Theater</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>2004</td>
+          <th scope="row">Zoot Suit Riots</th>
+          <td>North High School and The Buell Theater</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>2001</td>
+          <th scope="row">Burning Patience and Secret Obscenities<span class="text-muted" style="font-weight: lighter;">*</span></th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>2000</td>
+          <th scope="row">El Corrido del Barrio</th>
+          <td>The King Center, Auraria Campus</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td></td>
+          <th scope="row">...and Now Miguel</td>
+          <td>The Arvada Center for the Arts and Humanities</th>
+          <td>Arvada, CO</td>
+        </tr>
+        <tr>
+          <td>1999</td>
+          <th scope="row">Real Woman Have Curves<span class="text-muted" style="font-weight: lighter;">*</span></th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td></td>
+          <th scope="row">Children’s Video Backdrop</th>
+          <td>Rocky Mountain Headstart</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>1998</td>
+          <th scope="row">The Miracle at Tepeyac (1994 - 1999)</th>
+          <td>St Cajetan’s Center</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>1997</td>
+          <th scope="row">El Corrido del Barrio</th>
+          <td>St Cajetan’s Center</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td></td>
+          <th scope="row">Lumanarias<span class="text-muted" style="font-weight: lighter;">*</span></th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td></td>
+          <th scope="row">The Fat-Free Chicana and the Snow Cap Queen</th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>1996</td>
+          <th scope="row">The Eclipse of Lowry<span class="text-muted" style="font-weight: lighter;">*</span></th>
+          <td>Denver Civic Center Theater</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>1995</td>
+          <th scope="row">Shadow of a Man<span class="text-muted" style="font-weight: lighter;">*</span></th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td></td>
+          <th scope="row">La Victima<span class="text-muted" style="font-weight: lighter;">*</span></th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td></td>
+          <th scope="row">El Corrido de Cherry Creek<span class="text-muted" style="font-weight: lighter;">*</span><br>
+            <small class="text-muted" style="font-weight: lighter;">(constructed an altar for use in this film)</small></th>
+          <td></td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>1994</td>
+          <th scope="row">Intro to Chicano History, 101<span class="text-muted" style="font-weight: lighter;">*</span></th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>1993</td>
+          <th scope="row">La Carpa Aztlan, I Don't Speak English Only<span class="text-muted" style="font-weight: lighter;">*</span></th>
+          <td>
+            El Centro Su Teatro 
+          </td>
+          <td>
+            Denver, CO
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>United Farmworkers Union Headquarters</td>
+          <td>La Paz, CA</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>El Teatro Campesino</td>
+          <td>San Juan Bautista, CA</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>New World Theater</td>
+          <td>Amherst, MA</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Weber State University</td>
+          <td>Ogden, UT</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Swathmore College</td>
+          <td>Swathmore, PA</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Topeka Performing Arts Center</td>
+          <td>Topeka, KA</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td><small">Also, numerous other venues throughout the United States 1993-2020</small></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1992</td>
+          <th scope="row">Night of the Barrio Moon</th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td></td>
+          <th scope="row">Bernabe<span class="text-muted" style="font-weight: lighter;">*</span></th>
+          <td>El Centro Su Teatro</td>
+          <td>Denver, CO</td>
+        </tr>
+        <tr>
+          <td>1991</td>
+          <th scope="row">Heart of Sky, Heart of Earth<span class="text-muted" style="font-weight: lighter;">*</span></th>
+          <td>EDGE Gallery</td>
+          <td>Denver, CO</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="pt-2 text-center">
+      <small class="text-muted"><span class="text-muted" style="font-weight: lighter;">*</span>volunteer set design, paint and construction</small>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div id="data-container"></div>
+  <div id="pagination-container"></div>
+
+  <!-- Footer-->
+  <footer class="footer py-4">
+    <div class="container">
+      <div class="text-center">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>. All images and content are the exclusive property of Carlos
+        Frésquez. All rights reserved.
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Modals-->
+  <div id="modals"></div>
 
-    <!-- Core theme JS-->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/setDesign.js"></script>
+
   </body>
 </html>
