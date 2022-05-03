@@ -110,14 +110,6 @@ installations.push(
     slug: './assets/img/installation/2000s/',
   },
   {
-    id: 47,
-    title: '',
-    medium: 'installation',
-    year: '2005',
-    other: '',
-    slug: './assets/img/installation/2000s/',
-  },
-  {
     id: 48,
     title: 'Homage to Jim Dine',
     medium: 'installation',

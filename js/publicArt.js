@@ -1,6 +1,6 @@
 const publicArt = [
   {
-    id: '160',
+    id: '1',
     title: 'City Blues',
     medium: 'acrylic on panel',
     year: '1989',
@@ -8,7 +8,7 @@ const publicArt = [
     slug: './assets/img/public-art/1980s/',
   },
   {
-    id: '161',
+    id: '2',
     title: 'El Vaquero',
     medium: 'painted mural',
     year: '1997',
@@ -16,7 +16,15 @@ const publicArt = [
     slug: './assets/img/public-art/1990s/',
   },
   {
-    id: '162',
+    id: '3',
+    title: 'Un Corrido para la Gente',
+    medium: '',
+    year: '2005',
+    other: `Morrison Road Gateway, Denver, CO`,
+    slug: './assets/img/public-art/2000s/',
+  },
+  {
+    id: '4',
     title: 'Spruced Up',
     medium: '',
     year: '2018',
@@ -25,7 +33,7 @@ const publicArt = [
     slug: './assets/img/public-art/2010s/',
   },
   {
-    id: '163',
+    id: '5',
     title: 'Spruced Up',
     medium: '',
     year: '2018',
@@ -34,7 +42,7 @@ const publicArt = [
     slug: './assets/img/public-art/2010s/',
   },
   {
-    id: '164',
+    id: '6',
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',
@@ -42,7 +50,7 @@ const publicArt = [
     slug: './assets/img/public-art/2020s/',
   },
   {
-    id: '165',
+    id: '7',
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',
@@ -50,7 +58,7 @@ const publicArt = [
     slug: './assets/img/public-art/2020s/',
   },
   {
-    id: '166',
+    id: '8',
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',
@@ -58,7 +66,7 @@ const publicArt = [
     slug: './assets/img/public-art/2020s/',
   },
   {
-    id: '167',
+    id: '9',
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',

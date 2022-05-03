@@ -24,7 +24,7 @@ const setDesign = [
       'King Center Theater Denver, CO in 2005 <br> El Centro Su Teatro Denver, CO in 2016',
     slug: './assets/img/set-design/2000s/',
     video:
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/3VC9ayLe4hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+      '<iframe width="100%" style="min-height: 500px;" src="https://www.youtube.com/embed/3VC9ayLe4hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     id: '170',
@@ -34,7 +34,7 @@ const setDesign = [
     other: 'The Curious Theater, Denver, CO <br> set design by Markus Henry',
     slug: './assets/img/set-design/2020s/',
     video:
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/BI5I-G0gBew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+      '<iframe width="100%" style="min-height: 500px;" src="https://www.youtube.com/embed/BI5I-G0gBew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
 ]
 
