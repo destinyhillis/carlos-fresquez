@@ -788,14 +788,6 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '97',
-    title: 'Hecho en Aztlán',
-    medium: 'vinyl sticker',
-    year: 'ca. 1999',
-    other: '',
-    slug: './assets/img/painting/1990s/',
-  },
-  {
     id: '98',
     title: '',
     medium: '',
@@ -1067,6 +1059,22 @@ const paintings = [
     year: '2016',
     other: '',
     slug: './assets/img/painting/2010s/',
+  },
+  {
+    id: '160',
+    title: 'Time Transfixed (After Magritte)',
+    medium: 'oil on canvas',
+    year: '2021',
+    other: '',
+    slug: './assets/img/painting/2020s/',
+  },
+  {
+    id: '161',
+    title: 'El Encuentro',
+    medium: 'acrylic on canvas',
+    year: '2022',
+    other: '',
+    slug: './assets/img/painting/2020s/',
   },
 ]
 

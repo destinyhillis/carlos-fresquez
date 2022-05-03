@@ -17,20 +17,19 @@ const publicArt = [
   },
   {
     id: '3',
+    title: 'Hecho en Aztlán',
+    medium: 'vinyl sticker',
+    year: 'ca. 1999',
+    other: '',
+    slug: './assets/img/public-art/1990s/',
+  },
+  {
+    id: '4',
     title: 'Un Corrido para la Gente',
     medium: '',
     year: '2005',
     other: `Morrison Road Gateway, Denver, CO`,
     slug: './assets/img/public-art/2000s/',
-  },
-  {
-    id: '4',
-    title: 'Spruced Up',
-    medium: '',
-    year: '2018',
-    other:
-      '16th Street Mall (in the alley between Champa and Stout), Denver, CO',
-    slug: './assets/img/public-art/2010s/',
   },
   {
     id: '5',
@@ -43,11 +42,12 @@ const publicArt = [
   },
   {
     id: '6',
-    title: 'Que Viva Paco',
-    medium: 'painted stainless steel',
-    year: '2020',
-    other: 'Francisco "Paco" Sanchez Park, Denver, CO',
-    slug: './assets/img/public-art/2020s/',
+    title: 'Spruced Up',
+    medium: '',
+    year: '2018',
+    other:
+      '16th Street Mall (in the alley between Champa and Stout), Denver, CO',
+    slug: './assets/img/public-art/2010s/',
   },
   {
     id: '7',
@@ -67,6 +67,14 @@ const publicArt = [
   },
   {
     id: '9',
+    title: 'Que Viva Paco',
+    medium: 'painted stainless steel',
+    year: '2020',
+    other: 'Francisco "Paco" Sanchez Park, Denver, CO',
+    slug: './assets/img/public-art/2020s/',
+  },
+  {
+    id: '10',
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',
