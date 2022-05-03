@@ -110,23 +110,29 @@ installations.push(
     slug: './assets/img/installation/2000s/',
   },
   {
-    id: 48,
+    id: 47,
     title: 'Homage to Jim Dine',
     medium: 'installation',
-    year: '',
+    year: '2005',
     other: '',
     slug: './assets/img/installation/2000s/',
-  },
-  {
-    id: 49,
-    title: '',
-    medium: 'installation',
-    year: '',
+  }
+)
+
+for (let i = 48; i <= 73; i++) {
+  installations.push({
+    id: i,
+    title: 'Salon de los Ilegales',
+    medium: 'altered thriftstore landscapes (ready-made added)',
+    year: '2005-present',
     other: '',
     slug: './assets/img/installation/2000s/',
-  },
+  })
+}
+
+installations.push(
   {
-    id: 50,
+    id: 74,
     title: 'La Escalera',
     medium: 'installation',
     year: '',
@@ -134,7 +140,7 @@ installations.push(
     slug: './assets/img/installation/2000s/',
   },
   {
-    id: 51,
+    id: 75,
     title: 'Ofreda para mi Abuela-Lorencita Fresquez',
     medium: 'installation',
     year: '2001',
@@ -142,12 +148,52 @@ installations.push(
     slug: './assets/img/installation/2000s/',
   },
   {
-    id: 52,
+    id: 76,
     title: 'Ofreda para mi Abuela-Lorencita Fresquez (detail)',
     medium: 'installation',
     year: '2001',
     other: '',
     slug: './assets/img/installation/2000s/',
+  },
+  {
+    id: 77,
+    title: 'Manifest Destiny',
+    medium: 'acrylic on wall',
+    year: 'ca. 2013',
+    other: '',
+    slug: './assets/img/installation/2010s/',
+  },
+  {
+    id: 78,
+    title: 'Manifest Destiny',
+    medium: 'acrylic on wall',
+    year: 'ca. 2013',
+    other: '',
+    slug: './assets/img/installation/2010s/',
+  },
+  {
+    id: 79,
+    title: 'Chicanos Avanzan - Converse All Star',
+    medium: 'acrylic on wall',
+    year: '2016',
+    other: '',
+    slug: './assets/img/installation/2010s/',
+  },
+  {
+    id: 80,
+    title: 'Chicanos Avanzan - Converse All Star',
+    medium: 'acrylic on wall',
+    year: '2016',
+    other: '',
+    slug: './assets/img/installation/2010s/',
+  },
+  {
+    id: 81,
+    title: 'Perilous Journey',
+    medium: 'latex paint on wall',
+    year: '2018',
+    other: 'Assistant: Lorena Aranda',
+    slug: './assets/img/installation/2010s/',
   }
 )
 
