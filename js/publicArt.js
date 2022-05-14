@@ -8,6 +8,14 @@ const publicArt = [
     slug: './assets/img/public-art/1980s/',
   },
   {
+    id: '1',
+    title: 'Denver Vaquero',
+    medium: 'acrylic on wood Panel',
+    year: '1993',
+    other: '',
+    slug: './assets/img/public-art/1990s/',
+  },
+  {
     id: '2',
     title: 'El Vaquero',
     medium: 'painted mural',
@@ -24,7 +32,7 @@ const publicArt = [
     slug: './assets/img/public-art/1990s/',
   },
   {
-    id: '4',
+    id: '1',
     title: 'Un Corrido para la Gente',
     medium: '',
     year: '2005',
@@ -32,7 +40,7 @@ const publicArt = [
     slug: './assets/img/public-art/2000s/',
   },
   {
-    id: '5',
+    id: '1',
     title: 'Spruced Up',
     medium: '',
     year: '2018',
@@ -41,7 +49,7 @@ const publicArt = [
     slug: './assets/img/public-art/2010s/',
   },
   {
-    id: '6',
+    id: '2',
     title: 'Spruced Up',
     medium: '',
     year: '2018',
@@ -50,7 +58,7 @@ const publicArt = [
     slug: './assets/img/public-art/2010s/',
   },
   {
-    id: '7',
+    id: '1',
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',
@@ -58,7 +66,7 @@ const publicArt = [
     slug: './assets/img/public-art/2020s/',
   },
   {
-    id: '8',
+    id: '2',
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',
@@ -66,7 +74,7 @@ const publicArt = [
     slug: './assets/img/public-art/2020s/',
   },
   {
-    id: '9',
+    id: '3',
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',
@@ -74,7 +82,7 @@ const publicArt = [
     slug: './assets/img/public-art/2020s/',
   },
   {
-    id: '10',
+    id: '4',
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',
