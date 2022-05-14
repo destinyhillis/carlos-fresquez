@@ -1,6 +1,14 @@
 const prints = [
   {
     id: '1',
+    title: 'San Francisco en Taos',
+    medium: 'spraypaint stencil on paper',
+    year: '1985',
+    other: '',
+    slug: './assets/img/print/1980s/',
+  },
+  {
+    id: '1',
     title: 'Charro Muerto',
     medium: 'screenprint on paper',
     year: '1991',
@@ -152,7 +160,7 @@ const prints = [
     slug: './assets/img/print/1990s/',
   },
   {
-    id: '20',
+    id: '1',
     title: 'Sueños de Frida',
     medium: 'screenprint on paper',
     year: '2000',
@@ -160,7 +168,7 @@ const prints = [
     slug: './assets/img/print/2000s/',
   },
   {
-    id: '21',
+    id: '2',
     title: 'El Sol Que tu Eres',
     medium: 'screenprint on paper',
     year: '2005',
@@ -168,7 +176,7 @@ const prints = [
     slug: './assets/img/print/2000s/',
   },
   {
-    id: '22',
+    id: '3',
     title: 'Serafin',
     medium: 'screenprint on paper',
     year: '2006',
@@ -176,7 +184,7 @@ const prints = [
     slug: './assets/img/print/2000s/',
   },
   {
-    id: '23',
+    id: '4',
     title: 'A Fairy Tale',
     medium: 'screenprint on paper',
     year: '2007',
@@ -184,7 +192,7 @@ const prints = [
     slug: './assets/img/print/2000s/',
   },
   {
-    id: '24',
+    id: '5',
     title: 'A Westside Wedding (El Aniversario)',
     medium: 'screenprint on paper',
     year: '2007',
@@ -192,7 +200,7 @@ const prints = [
     slug: './assets/img/print/2000s/',
   },
   {
-    id: '25',
+    id: '1',
     title: 'Calaca I',
     medium: 'screenprint on paper',
     year: '2011',
@@ -200,7 +208,7 @@ const prints = [
     slug: './assets/img/print/2010s/',
   },
   {
-    id: '26',
+    id: '2',
     title: 'Calaca II',
     medium: 'screenprint on paper',
     year: '2012',
@@ -208,7 +216,7 @@ const prints = [
     slug: './assets/img/print/2010s/',
   },
   {
-    id: '27',
+    id: '3',
     title: 'Raza Powered',
     medium: 'screenprint on paper',
     year: '2015',
