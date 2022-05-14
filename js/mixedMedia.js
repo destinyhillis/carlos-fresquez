@@ -41,6 +41,14 @@ const mixedMedia = [
   },
   {
     id: '4',
+    title: 'Cool Couple Series # 15',
+    medium: 'acrylic and collage on paper board',
+    year: '1989',
+    other: '',
+    slug: './assets/img/mixed-media/1980s/',
+  },
+  {
+    id: '5',
     title: 'Nuestra Señora de Aztlan',
     medium: 'acrylic and photocopy collage on panel',
     year: '1989',
@@ -48,7 +56,7 @@ const mixedMedia = [
     slug: './assets/img/mixed-media/1980s/',
   },
   {
-    id: '5',
+    id: '6',
     title: 'Nuestra Señora de Aztlan',
     medium: 'acrylic and collage on paper board',
     year: '1989',
