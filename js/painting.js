@@ -7,24 +7,9 @@ const paintings = [
     other: '',
     slug: './assets/img/painting/1970s/',
   },
+
   {
-    id: '2',
-    title: 'Corazones Placas Series #1',
-    medium: 'spraypaint and collage on paper',
-    year: '1979',
-    other: '',
-    slug: './assets/img/painting/1970s/',
-  },
-  {
-    id: '3',
-    title: 'Corazones Placas Series #16',
-    medium: 'spraypaint and collage on paper',
-    year: '1979',
-    other: '',
-    slug: './assets/img/painting/1970s/',
-  },
-  {
-    id: '4',
+    id: '1',
     title: 'Zoot Suit en los Rockies',
     medium: 'spraypaint and airbrushed acrylic on panel',
     year: '1984',
@@ -32,31 +17,7 @@ const paintings = [
     slug: './assets/img/painting/1980s/',
   },
   {
-    id: '5',
-    title: 'Cool Couple Series #10',
-    medium: 'spraypaint, acrylic airbrush and collage on paper',
-    year: '1985',
-    other: '',
-    slug: './assets/img/painting/1980s/',
-  },
-  {
-    id: '6',
-    title: 'San Francisco en Taos',
-    medium: 'spraypaint stencil on paper',
-    year: '1985',
-    other: '',
-    slug: './assets/img/painting/1980s/',
-  },
-  {
-    id: '7',
-    title: 'The His-Panic Series … He Threw His Mind Out in a Car',
-    medium: 'acrylic and photocopy collage on paper',
-    year: '1988',
-    other: '',
-    slug: './assets/img/painting/1980s/',
-  },
-  {
-    id: '8',
+    id: '2',
     title: 'Cubie Doobie #5',
     medium: 'acrylic on paper',
     year: '1989',
@@ -64,7 +25,7 @@ const paintings = [
     slug: './assets/img/painting/1980s/',
   },
   {
-    id: '9',
+    id: '3',
     title: 'Cubie Doobie #7',
     medium: 'acrylic on paper',
     year: '1989',
@@ -72,7 +33,7 @@ const paintings = [
     slug: './assets/img/painting/1980s/',
   },
   {
-    id: '10',
+    id: '4',
     title: 'Hot Fun',
     medium: 'acrylic on canvas',
     year: '1989',
@@ -80,15 +41,7 @@ const paintings = [
     slug: './assets/img/painting/1980s/',
   },
   {
-    id: '11',
-    title: 'Cool Couple Series # 15',
-    medium: 'acrylic and collage on paper board',
-    year: '1989',
-    other: '',
-    slug: './assets/img/painting/1980s/',
-  },
-  {
-    id: '12',
+    id: '5',
     title: '¡Despiertate! Wake Up!',
     medium: 'acrylic on canvas',
     year: '1989-1990',
@@ -96,23 +49,7 @@ const paintings = [
     slug: './assets/img/painting/1980s/',
   },
   {
-    id: '13',
-    title: 'Nuestra Señora de Aztlan',
-    medium: 'acrylic and photocopy collage on panel',
-    year: '1989',
-    other: '',
-    slug: './assets/img/painting/1980s/',
-  },
-  {
-    id: '14',
-    title: 'Nuestra Señora de Aztlan',
-    medium: 'acrylic and collage on paper board',
-    year: '1989',
-    other: '',
-    slug: './assets/img/painting/1980s/',
-  },
-  {
-    id: '15',
+    id: '1',
     title: 'El Lowrider en Los Rockies',
     medium: 'acrylic on canvas',
     year: '1990',
@@ -120,7 +57,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '16',
+    id: '2',
     title: 'Parque La Alma',
     medium: 'acrylic on canvas',
     year: '1990',
@@ -128,7 +65,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '17',
+    id: '3',
     title: 'Missing You',
     medium: 'acrylic on canvas and panel',
     year: '1990',
@@ -136,7 +73,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '18',
+    id: '4',
     title: 'Mi Sangre Nueva',
     medium: 'acrylic on canvas',
     year: '1991',
@@ -144,7 +81,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '19',
+    id: '5',
     title: 'Funtime Amarillo',
     medium: 'acrylic on canvas',
     year: '1991',
@@ -152,7 +89,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '20',
+    id: '6',
     title: 'Jaguarman and the Coming of the New Heart',
     medium: 'acrylic on canvas',
     year: '1991',
@@ -160,7 +97,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '21',
+    id: '7',
     title: 'Una Rosa',
     medium: 'acrylic on canvas',
     year: '1991',
@@ -168,7 +105,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '22',
+    id: '8',
     title: 'Untitled',
     medium: 'acrylic on canvas',
     year: '1992',
@@ -176,7 +113,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '23',
+    id: '9',
     title: 'Guts and Grace',
     medium: 'acrylic on canvas',
     year: '1992',
@@ -184,7 +121,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '24',
+    id: '10',
     title: 'Rush Hour #4',
     medium: 'acrylic with found objects on panel',
     year: '1992',
@@ -192,7 +129,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '25',
+    id: '11',
     title: 'Night of the Barrio Moon',
     medium: 'acrylic on canvas',
     year: '1992',
@@ -200,7 +137,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '26',
+    id: '12',
     title: 'Teatro de Mi Corazon',
     medium: 'acrylic on canvas and panel',
     year: '1992',
@@ -208,7 +145,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '27',
+    id: '13',
     title: 'Teatro de Mi Corazon (detail)',
     medium: 'acrylic on canvas and panel',
     year: '1992',
@@ -216,7 +153,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '28',
+    id: '14',
     title: 'Teatro de Mi Corazon (detail)',
     medium: 'acrylic on canvas and panel',
     year: '1992',
@@ -224,7 +161,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '29',
+    id: '15',
     title: 'Bato-man',
     medium: 'acrylic on canvas',
     year: '1992',
@@ -232,7 +169,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '30',
+    id: '16',
     title: `Imagine, There's Nothing to Live or Die for, No Religions Too`,
     medium: 'acrylic on panel',
     year: '1992',
@@ -240,7 +177,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '31',
+    id: '17',
     title: `Imagine, There's Nothing to Live or Die for, No Religions Too`,
     medium: 'acrylic on panel',
     year: '1992',
@@ -248,7 +185,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '32',
+    id: '18',
     title: `Imagine, There's Nothing to Live or Die for, No Religions Too`,
     medium: 'acrylic on panel',
     year: '1992',
@@ -256,7 +193,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '33',
+    id: '19',
     title: 'El Charro en Colorado',
     medium: 'acrylic on panel and frame',
     year: '1992',
@@ -264,7 +201,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '34',
+    id: '20',
     title: 'Pachuco en Pink',
     medium: 'acrylic on canvas',
     year: '1993',
@@ -272,7 +209,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '35',
+    id: '21',
     title: 'Posole',
     medium: 'acrylic on canvas',
     year: '1993',
@@ -280,7 +217,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '36',
+    id: '22',
     title: 'Teatro Series',
     medium: 'acrylic on canvas',
     year: '1993',
@@ -288,7 +225,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '37',
+    id: '23',
     title: 'Talking to the Spirits',
     medium: 'acrylic on canvas',
     year: '1993',
@@ -296,15 +233,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '38',
-    title: 'Denver Vaquero',
-    medium: 'acrylic on wood Panel',
-    year: '1993',
-    other: '',
-    slug: './assets/img/painting/1990s/',
-  },
-  {
-    id: '39',
+    id: '24',
     title: 'Jewel Pool',
     medium: 'acrylic on canvas',
     year: '1994',
@@ -312,32 +241,16 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '40',
-    title: 'Tsi-Mayoh',
-    medium:
-      'oil on panel - with a Holy Water font filled with la Tierra Sagrada de Chimayo',
-    year: '1994',
-    other: '',
-    slug: './assets/img/painting/1990s/',
-  },
-  {
-    id: '41',
+    id: '25',
     title: 'Carrito #3',
     medium: 'acrylic on wood',
     year: '1994',
     other: '',
     slug: './assets/img/painting/1990s/',
   },
+
   {
-    id: '42',
-    title: 'Las Manos que Curan',
-    medium: 'oil on panel with metal milagros attached',
-    year: '1994',
-    other: '',
-    slug: './assets/img/painting/1990s/',
-  },
-  {
-    id: '43',
+    id: '26',
     title: 'Chiapas Warrior de la Tierra Madre',
     medium: 'acrylic on canvas',
     year: '1995',
@@ -345,7 +258,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '44',
+    id: '27',
     title: 'Right On!',
     medium: 'acrylic on canvas',
     year: '1996',
@@ -353,7 +266,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '45',
+    id: '28',
     title: 'La Rosa II',
     medium: 'acrylic on panel and frame',
     year: '1996',
@@ -361,7 +274,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '46',
+    id: '29',
     title: 'A Westside Wedding II',
     medium: 'acrylic on canvas',
     year: '1996',
@@ -369,7 +282,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '47',
+    id: '30',
     title: 'Iglesia en el pueblo de Taos',
     medium: 'acrylic on panel',
     year: '1996',
@@ -377,7 +290,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '48',
+    id: '31',
     title: 'La Iglesia San Francisco en Ranchos',
     medium: 'acrylic on canvas',
     year: '1996',
@@ -385,7 +298,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '49',
+    id: '32',
     title: 'La Vista de Ranchos',
     medium: 'acrylic on canvas',
     year: '1996',
@@ -393,7 +306,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '50',
+    id: '33',
     title: 'Apples and Orange',
     medium: 'acrylic on canvas board and frame',
     year: '1997',
@@ -401,7 +314,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '51',
+    id: '34',
     title: 'El Psychedelic Punk Mariachi',
     medium: 'acrylic on panel',
     year: '1997',
@@ -409,7 +322,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '52',
+    id: '35',
     title: 'El Stereotype',
     medium: 'acrylic on panel',
     year: '1997',
@@ -417,7 +330,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '53',
+    id: '36',
     title: 'El Roy',
     medium: 'acrylic on panel',
     year: '1997',
@@ -425,7 +338,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '54',
+    id: '37',
     title: 'Have a Maize Day',
     medium: 'acrylic on panel',
     year: '1997',
@@ -433,7 +346,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '55',
+    id: '38',
     title: '',
     medium: 'acrylic and collage on panel',
     year: '1997',
@@ -441,7 +354,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '56',
+    id: '39',
     title: 'No Quiero',
     medium: 'acrylic and collage on panel',
     year: '1997',
@@ -449,7 +362,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '57',
+    id: '40',
     title: 'I Am What I Am',
     medium: 'acrylic and collage on panel',
     year: '1997',
@@ -457,7 +370,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '58',
+    id: '41',
     title: 'Forever Trapped',
     medium: 'acrylic and collage on panel',
     year: '1997',
@@ -465,7 +378,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '59',
+    id: '42',
     title: 'The Pilgrims Played All the Games They Knew',
     medium: 'acrylic and collage on panel',
     year: '1997',
@@ -473,7 +386,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '60',
+    id: '43',
     title: `Tiempotrippin'`,
     medium: 'Krylon on thriftstore sunstone',
     year: '1997',
@@ -481,7 +394,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '61',
+    id: '44',
     title: `Tiempotrippin'`,
     medium: 'Krylon on thriftstore sunstone',
     year: '1997',
@@ -489,7 +402,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '62',
+    id: '45',
     title: 'El Corrido Cosmica',
     medium: 'acrylic on canvas and panel',
     year: '1998',
@@ -497,7 +410,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '63',
+    id: '46',
     title: 'El Corrido Cosmica (detail)',
     medium: 'acrylic on canvas and panel',
     year: '1998',
@@ -505,7 +418,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '64',
+    id: '47',
     title: 'El Corrido Cosmica (detail)',
     medium: 'acrylic on canvas and panel',
     year: '1998',
@@ -513,7 +426,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '65',
+    id: '48',
     title: 'San Ysidro',
     medium: 'acrylic on panel',
     year: 'ca. 1998',
@@ -521,7 +434,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '66',
+    id: '49',
     title: 'Picoso Hot and Fast',
     medium: 'acrylic on MDF panel',
     year: '1998',
@@ -530,7 +443,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '67',
+    id: '50',
     title: 'Alien Surprise',
     medium: 'acrylic on MDF panel',
     year: '1998-1999',
@@ -539,7 +452,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '68',
+    id: '51',
     title: 'Tacuche Haze',
     medium: 'acrylic on MDF panel',
     year: '1998-1999',
@@ -548,7 +461,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '69',
+    id: '52',
     title: 'Viva Las Vegas',
     medium: 'acrylic on MDF panel',
     year: '1998-1999',
@@ -557,7 +470,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '70',
+    id: '53',
     title: 'Viva Mejico',
     medium: 'acrylic on MDF panel',
     year: '1998-1999',
@@ -566,7 +479,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '71',
+    id: '54',
     title: 'Untitled',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -575,7 +488,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '72',
+    id: '55',
     title: 'War! What is it Good For?',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -584,7 +497,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '73',
+    id: '56',
     title: 'Mighty Mighty',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -593,7 +506,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '74',
+    id: '57',
     title: 'Huelga!',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -602,7 +515,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '75',
+    id: '58',
     title: 'Chicano Power!',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -611,7 +524,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '76',
+    id: '59',
     title: 'Madre Cosmica',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -620,7 +533,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '77',
+    id: '60',
     title: 'Doble Jesus',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -629,7 +542,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '78',
+    id: '61',
     title: 'Untitled',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -638,7 +551,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '79',
+    id: '62',
     title: 'Untitled',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -647,7 +560,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '80',
+    id: '63',
     title: 'Untitled',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -656,7 +569,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '81',
+    id: '64',
     title: 'Untitled',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -665,7 +578,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '82',
+    id: '65',
     title: 'Untitled',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -674,7 +587,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '83',
+    id: '66',
     title: 'Untitled',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -683,7 +596,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '84',
+    id: '67',
     title: 'Untitled',
     medium: 'acrylic on grommeted canvas',
     year: '1999-2016',
@@ -692,7 +605,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '85',
+    id: '68',
     title: 'Untitled',
     medium: 'acrylic on canvas',
     year: '1999',
@@ -700,7 +613,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '86',
+    id: '69',
     title: 'Obsidian Ranfla series #1',
     medium: 'spraypaint, screenprint, and oil on panel',
     year: '1999',
@@ -708,7 +621,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '87',
+    id: '70',
     title: 'Obsidian Ranfla series #3',
     medium: 'spraypaint, screenprint, and oil on panel',
     year: '1999',
@@ -716,7 +629,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '88',
+    id: '71',
     title: 'Obsidian Ranfla series #6',
     medium: 'spraypaint, screenprint, and oil on panel',
     year: '1999',
@@ -724,7 +637,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '89',
+    id: '72',
     title: 'Obsidian Ranfla series #8',
     medium: 'spraypaint, screenprint, and oil on panel',
     year: '1999',
@@ -732,7 +645,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '90',
+    id: '73',
     title: 'Los El Peez - (A Handy Carrying Case)',
     medium: 'screenprint on album cover',
     year: '1999-present',
@@ -740,7 +653,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '91',
+    id: '74',
     title: 'Los El Peez; The Disk-O-Teca Series',
     medium: 'acrylic on vinyl album',
     year: '1999-present',
@@ -748,7 +661,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '92',
+    id: '75',
     title: 'Los El Peez; The Disk-O-Teca Series',
     medium: 'acrylic on vinyl album',
     year: '1999-present',
@@ -756,7 +669,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '93',
+    id: '76',
     title: 'Los El Peez; The Disk-O-Teca Series',
     medium: 'acrylic on vinyl album',
     year: '1999-present',
@@ -764,7 +677,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '94',
+    id: '77',
     title: 'Los El Peez; The Disk-O-Teca Series',
     medium: 'acrylic on vinyl album',
     year: '1999-present',
@@ -772,7 +685,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '95',
+    id: '78',
     title: 'Los El Peez; The Disk-O-Teca Series',
     medium: 'acrylic on vinyl album',
     year: '1999-present',
@@ -780,7 +693,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '96',
+    id: '79',
     title: 'Los El Peez; The Disk-O-Teca Series',
     medium: 'acrylic on vinyl album',
     year: '1999-present',
@@ -788,7 +701,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '98',
+    id: '80',
     title: '',
     medium: '',
     year: '',
@@ -796,7 +709,7 @@ const paintings = [
     slug: './assets/img/painting/1990s/',
   },
   {
-    id: '99',
+    id: '1',
     title: 'Trapped',
     medium: 'acrylic on canvas',
     year: '2000',
@@ -804,7 +717,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '100',
+    id: '2',
     title: 'Por Vida',
     medium: 'oil, spraypaint, screenprint on panel',
     year: '2000',
@@ -812,7 +725,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '101',
+    id: '3',
     title: 'Mi Familia',
     medium: 'acrylic on panel and frame',
     year: '2001',
@@ -820,7 +733,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '102',
+    id: '4',
     title: 'Sueños Surrealismo',
     medium: 'acrylic on canvas',
     year: '2001',
@@ -828,31 +741,16 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '103',
-    title: 'La Casa Roja',
-    medium: 'acrylic and collage on panel',
-    year: '2002',
-    other: '',
-    slug: './assets/img/painting/2000s/',
-  },
-  {
-    id: '104',
+    id: '5',
     title: 'Side Altar: Pedro Antonio Fresquis',
     medium: 'oil on canvas',
     year: '2002',
     other: '',
     slug: './assets/img/painting/2000s/',
   },
+
   {
-    id: '105',
-    title: 'Borderlands',
-    medium: 'acrylic and collage on panel',
-    year: '2003',
-    other: '',
-    slug: './assets/img/painting/2000s/',
-  },
-  {
-    id: '106',
+    id: '6',
     title: 'Homage to Jim Dine (diptych - left side)',
     medium: 'acrylic on canvas with attached paintbrush',
     year: '2005',
@@ -860,7 +758,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '107',
+    id: '7',
     title: 'Homage to Jim Dine (diptych - right side)',
     medium: 'oil on canvas',
     year: '2005',
@@ -868,7 +766,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '108',
+    id: '8',
     title: 'A Westside Wedding; El Aniversario',
     medium: 'oil on canvas',
     year: '2005',
@@ -876,7 +774,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '135',
+    id: '9',
     title: 'Angela Davis',
     medium: 'acrylic on unstretched canvas',
     year: '2006',
@@ -885,7 +783,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '136',
+    id: '10',
     title: 'See Ya Real Soon',
     medium: 'acrylic on canvas',
     year: 'ca. 2007',
@@ -893,7 +791,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '137',
+    id: '11',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -901,7 +799,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '138',
+    id: '12',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -909,7 +807,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '139',
+    id: '13',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -917,7 +815,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '140',
+    id: '14',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -925,7 +823,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '141',
+    id: '15',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -933,7 +831,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '142',
+    id: '16',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -941,7 +839,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '143',
+    id: '17',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -949,7 +847,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '144',
+    id: '18',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -957,7 +855,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '145',
+    id: '19',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -965,7 +863,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '146',
+    id: '20',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -973,7 +871,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '147',
+    id: '21',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -981,7 +879,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '148',
+    id: '22',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -989,7 +887,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '149',
+    id: '23',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -997,7 +895,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '150',
+    id: '24',
     title: 'Box Painting Series',
     medium: 'acrylic on box',
     year: '2007',
@@ -1005,7 +903,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '151',
+    id: '25',
     title: 'Mejico y Yo',
     medium: 'acrylic and screenprint on panel',
     year: '2009',
@@ -1013,7 +911,7 @@ const paintings = [
     slug: './assets/img/painting/2000s/',
   },
   {
-    id: '152',
+    id: '1',
     title: 'El Meso- Moderno Series #3',
     medium: 'acrylic on canvas',
     year: '2010',
@@ -1021,7 +919,7 @@ const paintings = [
     slug: './assets/img/painting/2010s/',
   },
   {
-    id: '153',
+    id: '2',
     title: 'A Fine Time for Dine (diptych - left side)',
     medium: 'acrylic on canvas',
     year: '',
@@ -1029,7 +927,7 @@ const paintings = [
     slug: './assets/img/painting/2010s/',
   },
   {
-    id: '154',
+    id: '3',
     title: 'A Fine Time for Dine (diptych - right side)',
     medium: 'acrylic and spraypaint on canvas',
     year: '',
@@ -1037,7 +935,7 @@ const paintings = [
     slug: './assets/img/painting/2010s/',
   },
   {
-    id: '156',
+    id: '4',
     title: 'Decolonize',
     medium: 'acrylic on grommeted canvas',
     year: '2014',
@@ -1045,7 +943,7 @@ const paintings = [
     slug: './assets/img/painting/2010s/',
   },
   {
-    id: '158',
+    id: '5',
     title: 'End Barrio Warfare',
     medium: 'acrylic on canvas',
     year: '2016',
@@ -1053,7 +951,7 @@ const paintings = [
     slug: './assets/img/painting/2010s/',
   },
   {
-    id: '159',
+    id: '6',
     title: 'El Aguila y El Serpiente',
     medium: 'acrylic on canvas',
     year: '2016',
@@ -1061,7 +959,7 @@ const paintings = [
     slug: './assets/img/painting/2010s/',
   },
   {
-    id: '160',
+    id: '1',
     title: 'Time Transfixed (After Magritte)',
     medium: 'oil on canvas',
     year: '2021',
@@ -1069,7 +967,7 @@ const paintings = [
     slug: './assets/img/painting/2020s/',
   },
   {
-    id: '161',
+    id: '2',
     title: 'El Encuentro',
     medium: 'acrylic on canvas',
     year: '2022',
