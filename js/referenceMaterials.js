@@ -1,47 +1,74 @@
-const setDesign = [
+const referenceMaterials = [
   {
     id: '1',
-    title: `La Carpa Aztlan, I Don't Speak English Only`,
+    title: '',
     medium: '',
-    year: '1993',
-    other: `Su Teatro Denver, CO <br>
-    United Farmworkers Union Headquarters La Paz, CA <br>
-    El Teatro Campesino San Juan Bautista, CA <br>
-    New World Theater Amherst, MA <br>
-    Weber State University Ogden, UT <br>
-    Swathmore College Swathmore, PA <br>
-    Topeka Performing Arts Center Topeka, KA <br>
-    (Also, numerous other venues throughout the United States 1993-2020)`,
-    slug: './assets/img/set-design/1990s/',
-    video: '',
+    year: '',
+    other: '',
+    slug: './assets/img/reference-materials/1980s/',
   },
   {
-    id: '2',
-    title: 'El Sol Que tu Eres,',
-    medium: 'scenographer',
-    year: '2005',
-    other:
-      'King Center Theater Denver, CO in 2005 <br> El Centro Su Teatro Denver, CO in 2016',
-    slug: './assets/img/set-design/2000s/',
-    video:
-      '<iframe width="100%" style="min-height: 500px;" src="https://www.youtube.com/embed/3VC9ayLe4hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+    id: '1',
+    title: '',
+    medium: '',
+    year: '',
+    other: '',
+    slug: './assets/img/reference-materials/1980s/',
   },
   {
-    id: '3',
-    title: 'Refuge',
-    medium: 'mural backdrop',
-    year: '2022',
-    other: 'The Curious Theater, Denver, CO <br> set design by Markus Henry',
-    slug: './assets/img/set-design/2020s/',
-    video:
-      '<iframe width="100%" style="min-height: 500px;" src="https://www.youtube.com/embed/BI5I-G0gBew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+    id: '1',
+    title: '',
+    medium: '',
+    year: '',
+    other: '',
+    slug: './assets/img/reference-materials/1980s/',
+  },
+  {
+    id: '1',
+    title: '',
+    medium: '',
+    year: '',
+    other: '',
+    slug: './assets/img/reference-materials/1980s/',
+  },
+  {
+    id: '1',
+    title: '',
+    medium: '',
+    year: '',
+    other: '',
+    slug: './assets/img/reference-materials/1980s/',
+  },
+  {
+    id: '1',
+    title: '',
+    medium: '',
+    year: '',
+    other: '',
+    slug: './assets/img/reference-materials/1980s/',
+  },
+  {
+    id: '1',
+    title: '',
+    medium: '',
+    year: '',
+    other: '',
+    slug: './assets/img/reference-materials/1980s/',
+  },
+  {
+    id: '1',
+    title: '',
+    medium: '',
+    year: '',
+    other: '',
+    slug: './assets/img/reference-materials/1980s/',
   },
 ]
 
-setDesign.reverse()
+referenceMaterials.reverse()
 
-if (setDesign.length) {
-  setDesign.forEach(item => {
+if (referenceMaterials.length) {
+  referenceMaterials.forEach(item => {
     const section = `
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
@@ -103,15 +130,12 @@ if (setDesign.length) {
                             `
                           }
                         </div>
-                        ${
-                          item.video
-                            ? item.video
-                            : `<img
-                              class="img-fluid d-block mx-auto"
-                              src="${item.slug}${item.id}.jpg"
-                              alt="..."
-                            />`
-                        }
+  
+                        <img
+                          class="img-fluid d-block mx-auto"
+                          src="${item.slug}${item.id}.jpg"
+                          alt="..."
+                        />
   
                         <div data-bs-dismiss="modal">
                           <button type="button" class="btn btn-primary mt-4">
@@ -138,7 +162,7 @@ $('#decade').change(function () {
   $('#modals').html('')
 
   let decade = $('#decade').val()
-  setDesign.forEach(item => {
+  referenceMaterials.forEach(item => {
     let slug = item.slug
     if (slug.includes(decade) || decade == 'all') {
       const section = `
