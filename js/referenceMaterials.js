@@ -1,71 +1,87 @@
 const referenceMaterials = [
   {
     id: '1',
-    title: '',
+    title: 'Carlos Fresquez - Regis University DML Digital Initiatives',
     medium: '',
     year: '',
     other: '',
-    slug: './assets/img/reference-materials/1980s/',
+    slug: './assets/img/reference-materials/',
+    video:
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/zbLgRnqsczs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '1',
-    title: '',
+    id: '2',
+    title: 'Carlos Fresquez - Bonfils-Stanton Foundation; 2018 Artist Award',
     medium: '',
     year: '',
     other: '',
-    slug: './assets/img/reference-materials/1980s/',
+    slug: './assets/img/reference-materials/',
+    video:
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/RFwBOFGRzg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '1',
-    title: '',
+    id: '3',
+    title:
+      'Making a positive impact through art making with Carlos Fresquez - Beyond the Gallery ep. 52',
     medium: '',
     year: '',
     other: '',
-    slug: './assets/img/reference-materials/1980s/',
+    slug: './assets/img/reference-materials/',
+    video:
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/qag3HZ9u9y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '1',
-    title: '',
+    id: '4',
+    title: 'Rhythm of the Neighborhood - Carlos Fresquez',
     medium: '',
     year: '',
     other: '',
-    slug: './assets/img/reference-materials/1980s/',
+    slug: './assets/img/reference-materials/',
+    video:
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/eMrVu4UgmBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '1',
-    title: '',
+    id: '5',
+    title: 'Sangre Colorado; CVA exhibit explores the work of Carlos Fresquez',
     medium: '',
     year: '',
     other: '',
-    slug: './assets/img/reference-materials/1980s/',
+    slug: './assets/img/reference-materials/',
+    video:
+      'https://www.youtube.com/watch?v=0iepk7Pjy-Y&ab_channel=MetropolitanStateUniversityofDenver',
   },
   {
-    id: '1',
-    title: '',
-    medium: '',
+    id: '6',
+    title: 'Fear No Art - Featuring Carlos Fresquez',
+    medium: 'Carlos A. Fresquez - by Harrison Sadler',
     year: '',
     other: '',
-    slug: './assets/img/reference-materials/1980s/',
+    slug: './assets/img/reference-materials/',
+    video:
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/7LbnNOTspJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '1',
-    title: '',
+    id: '7',
+    title: 'Carlos A. Fresquez - by Harrison Sadler',
     medium: '',
     year: '',
     other: '',
-    slug: './assets/img/reference-materials/1980s/',
+    slug: './assets/img/reference-materials/',
+    video:
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/T96fOfWW-9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '1',
-    title: '',
+    id: '8',
+    title:
+      'Cuatro; Carlos Fresquez Discusses His Installation - Denver Art Museum',
     medium: '',
     year: '',
     other: '',
-    slug: './assets/img/reference-materials/1980s/',
+    slug: './assets/img/reference-materials/',
+    video:
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/Z9qL7LacFOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
 ]
-
-referenceMaterials.reverse()
 
 if (referenceMaterials.length) {
   referenceMaterials.forEach(item => {
@@ -130,12 +146,15 @@ if (referenceMaterials.length) {
                             `
                           }
                         </div>
-  
-                        <img
-                          class="img-fluid d-block mx-auto"
-                          src="${item.slug}${item.id}.jpg"
-                          alt="..."
-                        />
+                        ${
+                          item.video
+                            ? item.video
+                            : `<img
+                              class="img-fluid d-block mx-auto"
+                              src="${item.slug}${item.id}.jpg"
+                              alt="..."
+                            />`
+                        }
   
                         <div data-bs-dismiss="modal">
                           <button type="button" class="btn btn-primary mt-4">
@@ -174,7 +193,7 @@ $('#decade').change(function () {
                               <div class="portfolio-caption-heading text-center p-3">
                                   <h4>${item.title}</h4>
                                   <button type="button" class="btn btn-outline-light mt-4">
-                                      <i class="fas fa-plus"></i> More info
+                                      <i class="fas fa-play"></i> Play video
                                   </button>
                               </div>
                           </div>
