@@ -86,7 +86,7 @@ installations.push({
 
 installations.push(
   {
-    id: 44,
+    id: 1,
     title: '',
     medium: 'installation',
     year: '',
@@ -94,7 +94,7 @@ installations.push(
     slug: './assets/img/installation/2000s/',
   },
   {
-    id: 45,
+    id: 2,
     title: 'Los Supersonicos',
     medium: 'installation',
     year: '',
@@ -102,7 +102,7 @@ installations.push(
     slug: './assets/img/installation/2000s/',
   },
   {
-    id: 46,
+    id: 3,
     title: 'Los Supersonicos',
     medium: 'installation',
     year: '',
@@ -110,7 +110,7 @@ installations.push(
     slug: './assets/img/installation/2000s/',
   },
   {
-    id: 47,
+    id: 4,
     title: 'Homage to Jim Dine',
     medium: 'installation',
     year: '2005',
@@ -119,7 +119,7 @@ installations.push(
   }
 )
 
-for (let i = 48; i <= 73; i++) {
+for (let i = 5; i <= 30; i++) {
   installations.push({
     id: i,
     title: 'Salon de los Ilegales',
@@ -132,7 +132,7 @@ for (let i = 48; i <= 73; i++) {
 
 installations.push(
   {
-    id: 74,
+    id: 31,
     title: 'La Escalera',
     medium: 'installation',
     year: '',
@@ -140,7 +140,7 @@ installations.push(
     slug: './assets/img/installation/2000s/',
   },
   {
-    id: 75,
+    id: 32,
     title: 'Ofreda para mi Abuela-Lorencita Fresquez',
     medium: 'installation',
     year: '2001',
@@ -148,7 +148,7 @@ installations.push(
     slug: './assets/img/installation/2000s/',
   },
   {
-    id: 76,
+    id: 33,
     title: 'Ofreda para mi Abuela-Lorencita Fresquez (detail)',
     medium: 'installation',
     year: '2001',
@@ -156,7 +156,7 @@ installations.push(
     slug: './assets/img/installation/2000s/',
   },
   {
-    id: 77,
+    id: 1,
     title: 'Manifest Destiny',
     medium: 'acrylic on wall',
     year: 'ca. 2013',
@@ -164,7 +164,7 @@ installations.push(
     slug: './assets/img/installation/2010s/',
   },
   {
-    id: 78,
+    id: 2,
     title: 'Manifest Destiny',
     medium: 'acrylic on wall',
     year: 'ca. 2013',
@@ -172,7 +172,7 @@ installations.push(
     slug: './assets/img/installation/2010s/',
   },
   {
-    id: 79,
+    id: 3,
     title: 'Chicanos Avanzan - Converse All Star',
     medium: 'acrylic on wall',
     year: '2016',
@@ -180,7 +180,7 @@ installations.push(
     slug: './assets/img/installation/2010s/',
   },
   {
-    id: 80,
+    id: 4,
     title: 'Chicanos Avanzan - Converse All Star',
     medium: 'acrylic on wall',
     year: '2016',
@@ -188,7 +188,7 @@ installations.push(
     slug: './assets/img/installation/2010s/',
   },
   {
-    id: 81,
+    id: 5,
     title: 'Perilous Journey',
     medium: 'latex paint on wall',
     year: '2018',
