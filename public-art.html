@@ -1,53 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Carlos Frésquez</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bahiana&family=Bahianita&family=Barriecito&family=Barrio&family=Bungee+Inline&display=swap"
-      rel="stylesheet"
-    />
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  </head>
-  <body id="page-top">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Carlos Frésquez</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bahiana&family=Bahianita&family=Barriecito&family=Barrio&family=Bungee+Inline&display=swap"
+    rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body id="page-top">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
-    <div class="container">
+    <div class='container-fluid mx-5'>
       <a class="navbar-brand" href="./index.html">Carlos Frésquez</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarResponsive"
-        aria-controls="navbarResponsive"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars ms-1"></i>
       </button>
@@ -62,62 +43,72 @@
           <li class="nav-item"><a class="nav-link" href="./public-art.html">Public Art</a></li>
           <li class="nav-item"><a class="nav-link" href="./set-design.html">Set Design</a></li>
           <li class="nav-item"><a class="nav-link" href="./reference-materials.html">Reference Materials</a></li>
+          <li class="nav-item"><a href="mailto:carlos.fresquez@gmail.com?subject=Contact from CarlosFresquez.com">
+              <button type="button" class="btn btn-secondary">
+                Contact</button></a></li>
         </ul>
       </div>
     </div>
   </nav>
-    <!-- Portfolio Grid-->
-    <section class="page-section bg-light" id="portfolio">
-      <div class="container">
-        <div class="d-flex justify-content-between pb-3 pt-3">
-          <h3 class="section-heading text-uppercase">Public Art</h3>
+  <!-- Portfolio Grid-->
+  <section class="page-section bg-light" id="portfolio">
+    <div class="container">
+      <div class="d-flex justify-content-between pb-3 pt-3">
+        <h3 class="section-heading text-uppercase">Public Art</h3>
 
-          <div class="d-flex"> 
-            <div class="select-label">
-              Decade:
-            </div>  
-            <select class="form-select" id="decade">
-              <option value="all" selected>All</option>
-              <option value="1980">1980's</option>
-              <option value="1990">1990's</option>
-              <option value="2000">2000's</option>
-              <option value="2010">2010's</option>
-              <option value="2020">2020's</option>
-            </select>
+        <div class="d-flex">
+          <div class="select-label">
+            Decade:
           </div>
-        </div>
-
-        <div class="row" id="sections"></div>
-      </div>
-    </section>
-    <!-- Pagination -->
-    <div id="data-container"></div>
-    <div id="pagination-container"></div>
-
-    <!-- Footer-->
-    <footer class="footer py-4">
-      <div class="container">
-        <div class="text-center">
-          &copy;
-          <script>
-            document.write(new Date().getFullYear());
-          </script>. All images and content are the exclusive property of Carlos
-          Frésquez. All rights reserved.
+          <select class="form-select" id="decade">
+            <option value="all" selected>All</option>
+            <option value="1980">1980's</option>
+            <option value="1990">1990's</option>
+            <option value="2000">2000's</option>
+            <option value="2010">2010's</option>
+            <option value="2020">2020's</option>
+          </select>
         </div>
       </div>
-    </footer>
 
-    <!-- Modals-->
-    <div id="modals"></div>
-
+      <div class="row" id="sections"></div>
     </div>
+  </section>
+  <!-- Pagination -->
+  <div id="data-container"></div>
+  <div id="pagination-container"></div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/publicArt.js"></script>
+  <!-- Footer-->
+  <footer class="footer py-4">
+    <div class="container">
+      <div class="text-center">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>. All images and content are the exclusive property of Carlos
+        Frésquez. All rights reserved.
+      </div>
+    </div>
+  </footer>
 
-  </body>
+  <!-- Modals-->
+  <div id="modals"></div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/publicArt.js"></script>
+
+</body>
+
 </html>
