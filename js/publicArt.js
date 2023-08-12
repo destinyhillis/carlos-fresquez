@@ -1,93 +1,93 @@
 const publicArt = [
   {
-    id: '1',
+    id: 1,
     title: 'City Blues',
     medium: 'acrylic on panel',
     year: '1989',
     other: '96" x 144"',
-    slug: './assets/img/public-art/1980s/',
+    slug: './assets/img/public-art/1980s/1',
   },
   {
-    id: '1',
+    id: 2,
     title: 'Denver Vaquero',
     medium: 'acrylic on wood Panel',
     year: '1993',
     other: '',
-    slug: './assets/img/public-art/1990s/',
+    slug: './assets/img/public-art/1990s/1',
   },
   {
-    id: '2',
+    id: 3,
     title: 'El Vaquero',
     medium: 'painted mural',
     year: '1997',
     other: `20' x 20', 35th and Downing, Denver, CO`,
-    slug: './assets/img/public-art/1990s/',
+    slug: './assets/img/public-art/1990s/2',
   },
   {
-    id: '3',
+    id: 4,
     title: 'Hecho en Aztlán',
     medium: 'vinyl sticker',
     year: 'ca. 1999',
     other: '',
-    slug: './assets/img/public-art/1990s/',
+    slug: './assets/img/public-art/1990s/3',
   },
   {
-    id: '1',
+    id: 5,
     title: 'Un Corrido para la Gente',
     medium: '',
     year: '2005',
     other: `Morrison Road Gateway, Denver, CO`,
-    slug: './assets/img/public-art/2000s/',
+    slug: './assets/img/public-art/2000s/1',
   },
   {
-    id: '1',
+    id: 6,
     title: 'Spruced Up',
     medium: '',
     year: '2018',
     other:
       '16th Street Mall (in the alley between Champa and Stout), Denver, CO',
-    slug: './assets/img/public-art/2010s/',
+    slug: './assets/img/public-art/2010s/1',
   },
   {
-    id: '2',
+    id: 7,
     title: 'Spruced Up',
     medium: '',
     year: '2018',
     other:
       '16th Street Mall (in the alley between Champa and Stout), Denver, CO',
-    slug: './assets/img/public-art/2010s/',
+    slug: './assets/img/public-art/2010s/2',
   },
   {
-    id: '1',
+    id: 8,
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',
     other: 'Francisco "Paco" Sanchez Park, Denver, CO',
-    slug: './assets/img/public-art/2020s/',
+    slug: './assets/img/public-art/2020s/1',
   },
   {
-    id: '2',
+    id: 9,
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',
     other: 'Francisco "Paco" Sanchez Park, Denver, CO',
-    slug: './assets/img/public-art/2020s/',
+    slug: './assets/img/public-art/2020s/2',
   },
   {
-    id: '3',
+    id: 10,
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',
     other: 'Francisco "Paco" Sanchez Park, Denver, CO',
-    slug: './assets/img/public-art/2020s/',
+    slug: './assets/img/public-art/2020s/3',
   },
   {
-    id: '4',
+    id: 11,
     title: 'Que Viva Paco',
     medium: 'painted stainless steel',
     year: '2020',
     other: 'Francisco "Paco" Sanchez Park, Denver, CO',
-    slug: './assets/img/public-art/2020s/',
+    slug: './assets/img/public-art/2020s/4',
   },
 ]
 
@@ -109,7 +109,7 @@ if (publicArt.length) {
                               </div>
                           </div>
                       </div>
-                      <img class="img-fluid" src=${item.slug}${item.id}.jpg alt="..."/>
+                      <img class="img-fluid" src=${item.slug}.jpg alt="..."/>
                   </a>
               </div>
           </div>
@@ -159,7 +159,7 @@ if (publicArt.length) {
   
                         <img
                           class="img-fluid d-block mx-auto"
-                          src="${item.slug}${item.id}.jpg"
+                          src="${item.slug}.jpg"
                           alt="..."
                         />
   
@@ -205,7 +205,7 @@ $('#decade').change(function () {
                               </div>
                           </div>
                       </div>
-                      <img class="img-fluid" src=${item.slug}${item.id}.jpg alt="..."/>
+                      <img class="img-fluid" src=${item.slug}.jpg alt="..."/>
                   </a>
               </div>
           </div>
@@ -255,7 +255,7 @@ $('#decade').change(function () {
   
                         <img
                           class="img-fluid d-block mx-auto"
-                          src="${item.slug}${item.id}.jpg"
+                          src="${item.slug}.jpg"
                           alt="..."
                         />
   

@@ -1,229 +1,300 @@
 const indexPainting = [
   {
-    id: 16,
-    title: 'Zoot Suit en los Rockies',
-    medium: 'spraypaint and airbrushed acrylic on panel',
-    year: '1984',
-    other: '',
-    slug: './assets/img/painting/1980s/4',
+    id: 1,
+    title: "Zoot Suit en los Rockies",
+    medium: "spraypaint and airbrushed acrylic on panel",
+    year: "1984",
+    other: "",
+    slug: "./assets/img/painting/1980s/1",
   },
   {
-    id: 17,
-    title: 'Nuestra Señora de Aztlan',
-    medium: 'acrylic and collage on paper board',
-    year: '1989',
-    other: '',
-    slug: './assets/img/painting/1980s/14',
+    id: 2,
+    title: "Missing You",
+    medium: "acrylic on canvas and panel",
+    year: "1990",
+    other: "",
+    slug: "./assets/img/painting/1990s/3",
   },
   {
-    id: 18,
-    title: 'Missing You',
-    medium: 'acrylic on canvas and panel',
-    year: '1990',
-    other: '',
-    slug: './assets/img/painting/1990s/17',
+    id: 3,
+    title: "Posole",
+    medium: "acrylic on canvas",
+    year: "1993",
+    other: "",
+    slug: "./assets/img/painting/1990s/21",
   },
   {
-    id: 19,
-    title: 'Untitled',
+    id: 4,
+    title: 'A Westside Wedding II',
     medium: 'acrylic on canvas',
-    year: '1992',
+    year: '1996',
     other: '',
-    slug: './assets/img/painting/1990s/22',
+    slug: './assets/img/painting/1990s/29',
   },
   {
-    id: 20,
-    title: 'Posole',
-    medium: 'acrylic on canvas',
-    year: '1993',
-    other: '',
-    slug: './assets/img/painting/1990s/35',
-  },
-  {
-    id: 21,
-    title: 'Talking to the Spirits',
-    medium: 'acrylic on canvas',
-    year: '1993',
-    other: '',
-    slug: './assets/img/painting/1990s/37',
-  },
-  {
-    id: 22,
+    id: 5,
     title: `Tiempotrippin'`,
-    medium: 'Krylon on thriftstore sunstone',
-    year: '1997',
-    other: '',
-    slug: './assets/img/painting/1990s/60',
+    medium: "Krylon on thriftstore sunstone",
+    year: "1997",
+    other: "",
+    slug: "./assets/img/painting/1990s/43",
   },
   {
-    id: 23,
-    title: 'Doble Jesus',
-    medium: 'acrylic on grommeted canvas',
-    year: '1999-2016',
-    other:
-      'Los Supersonicos (Art Collective of Carlos Fresquez and Francisco Zamora)',
-    slug: './assets/img/painting/1990s/77',
+    id: 6,
+    title: "Doble Jesus",
+    medium: "acrylic on grommeted canvas",
+    year: "1999-2016",
+    other: "Los Supersonicos (Art Collective of Carlos Fresquez and Francisco Zamora)",
+    slug: "./assets/img/painting/1990s/60",
   },
   {
-    id: 24,
-    title: 'Los El Peez The Disk-O-Teca Series',
-    medium: 'acrylic on vinyl album',
-    year: '1999-present',
-    other: '',
-    slug: './assets/img/painting/1990s/91',
+    id: 7,
+    title: "Los El Peez The Disk-O-Teca Series",
+    medium: "acrylic on vinyl album",
+    year: "1999-present",
+    other: "",
+    slug: "./assets/img/painting/1990s/74",
   },
   {
-    id: 25,
-    title: 'A Fine Time for Dine (diptych - right side)',
-    medium: 'acrylic and spraypaint on canvas',
-    year: '',
+    id: 8,
+    title: 'Box Painting Series',
+    medium: 'acrylic on box',
+    year: '2007',
     other: '',
-    slug: './assets/img/painting/2010s/154',
+    slug: './assets/img/painting/2000s/17',
   },
   {
-    id: 26,
-    title: 'A Fine Time for Dine (diptych - left side)',
-    medium: 'acrylic on canvas',
-    year: '',
-    other: '',
-    slug: './assets/img/painting/2010s/153',
+    id: 9,
+    title: "A Fine Time for Dine (diptych - right side)",
+    medium: "acrylic and spraypaint on canvas",
+    year: "",
+    other: "",
+    slug: "./assets/img/painting/2000s/7",
   },
   {
-    id: 27,
-    title: 'El Aguila y El Serpiente',
-    medium: 'acrylic on canvas',
-    year: '2016',
-    other: '',
-    slug: './assets/img/painting/2010s/159',
+    id: 10,
+    title: "A Fine Time for Dine (diptych - left side)",
+    medium: "acrylic on canvas",
+    year: "",
+    other: "",
+    slug: "./assets/img/painting/2000s/6",
+  },
+  {
+    id: 11,
+    title: "El Aguila y El Serpiente",
+    medium: "acrylic on canvas",
+    year: "2016",
+    other: "",
+    slug: "./assets/img/painting/2010s/6",
+  },
+  {
+    id: 12,
+    title: "Time Transfixed (After Magritte)",
+    medium: "oil on canvas",
+    year: "2021",
+    other: "",
+    slug: "./assets/img/painting/2020s/1",
   },
 ]
 
 const indexPrint = [
   {
-    id: 10,
-    title: 'A Westside Wedding',
-    medium: 'screenprint on paper',
-    year: '1993',
-    other: '',
-    slug: './assets/img/print/1990s/6',
-  },
-  {
-    id: 11,
-    title: 'A Rough Ride',
-    medium: 'screenprint on paper',
-    year: '1994',
-    other: '',
-    slug: './assets/img/print/1990s/8',
-  },
-  {
-    id: 12,
-    title: 'Tortillas Hecho en Aztlan',
-    medium: 'screenprint on paper',
-    year: '1998',
-    other: '',
-    slug: './assets/img/print/1990s/15',
-  },
-  {
     id: 13,
-    title: 'El Sol Que tu Eres',
-    medium: 'screenprint on paper',
-    year: '2005',
-    other: '',
-    slug: './assets/img/print/2000s/21',
+    title: "A Westside Wedding",
+    medium: "screenprint on paper",
+    year: "1993",
+    other: "",
+    slug: "./assets/img/print/1990s/6",
   },
   {
     id: 14,
-    title: 'Calaca I',
-    medium: 'screenprint on paper',
-    year: '2011',
-    other: '',
-    slug: './assets/img/print/2010s/25',
+    title: "A Rough Ride",
+    medium: "screenprint on paper",
+    year: "1994",
+    other: "",
+    slug: "./assets/img/print/1990s/8",
   },
   {
     id: 15,
-    title: 'Raza Powered',
-    medium: 'screenprint on paper',
-    year: '2015',
-    other: '',
-    slug: './assets/img/print/2010s/27',
+    title: "Tortillas Hecho en Aztlan",
+    medium: "screenprint on paper",
+    year: "1998",
+    other: "",
+    slug: "./assets/img/print/1990s/15",
+  },
+  {
+    id: 16,
+    title: "El Sol Que tu Eres",
+    medium: "screenprint on paper",
+    year: "2005",
+    other: "",
+    slug: "./assets/img/print/2000s/2",
+  },
+  {
+    id: 17,
+    title: "Calaca I",
+    medium: "screenprint on paper",
+    year: "2011",
+    other: "",
+    slug: "./assets/img/print/2010s/1",
+  },
+  {
+    id: 18,
+    title: "Raza Powered",
+    medium: "screenprint on paper",
+    year: "2015",
+    other: "",
+    slug: "./assets/img/print/2010s/3",
   },
 ]
 
 const indexInstallation = [
   {
-    id: 1,
-    title: 'Codices of the Barrio An Anti Gang Ofrenda',
-    medium: 'installation',
-    year: '1991',
-    other: 'EDGE Gallery, Photography by Chuck Ault',
-    slug: './assets/img/installation/1990s/8',
+    id: 19,
+    title: "Codices of the Barrio An Anti Gang Ofrenda",
+    medium: "installation",
+    year: "1991",
+    other: "EDGE Gallery, Photography by Chuck Ault",
+    slug: "./assets/img/installation/1990s/8",
   },
   {
-    id: 2,
-    title: 'Altar para mi Abuelo, Fernando Fresquez',
-    medium: 'installation',
-    year: '1998',
+    id: 20,
+    title: "Altar para mi Abuelo, Fernando Fresquez",
+    medium: "installation",
+    year: "1998",
     other: `Mixed Media with my Grandfather's 1930's Saddle`,
-    slug: './assets/img/installation/1990s/11',
+    slug: "./assets/img/installation/1990s/11",
   },
   {
-    id: 3,
-    title: 'El Espejo: Checking the Rearview of Chicano Time',
-    medium: 'installation',
-    year: '1995',
+    id: 21,
+    title: "El Espejo: Checking the Rearview of Chicano Time",
+    medium: "installation",
+    year: "1995",
+    other: "",
+    slug: "./assets/img/installation/1990s/18",
+  },
+  {
+    id: 22,
+    title: "Homage to Jim Dine",
+    medium: "installation",
+    year: "",
+    other: "",
+    slug: "./assets/img/installation/2000s/4",
+  },
+  {
+    id: 23,
+    title: "Ofreda para mi Abuela-Lorencita Fresquez",
+    medium: "installation",
+    year: "2001",
+    other: "",
+    slug: "./assets/img/installation/2000s/32",
+  },
+  {
+    id: 24,
+    title: 'Manifest Destiny',
+    medium: 'acrylic on wall',
+    year: 'ca. 2013',
     other: '',
-    slug: './assets/img/installation/1990s/18',
+    slug: './assets/img/installation/2010s/2',
   },
   {
-    id: 4,
-    title: 'Mi Casa es Su Casa',
-    medium: 'installation',
-    year: '1995',
-    other: 'Photography by Chuck Ault',
-    slug: './assets/img/installation/1990s/20',
+    id: 25,
+    title: 'Perilous Journey',
+    medium: 'latex paint on wall',
+    year: '2018',
+    other: 'Assistant: Lorena Aranda',
+    slug: './assets/img/installation/2010s/5',
   },
   {
-    id: 5,
-    title: 'Homage to Jim Dine',
-    medium: 'installation',
-    year: '',
+    id: 26,
+    title: 'Malintzin; Who is She?',
+    medium: 'digital photography',
+    year: '2022',
     other: '',
-    slug: './assets/img/installation/2000s/48',
+    slug: './assets/img/installation/2020s/1',
   },
   {
-    id: 6,
-    title: 'Ofreda para mi Abuela-Lorencita Fresquez',
-    medium: 'installation',
-    year: '2001',
-    other: '',
-    slug: './assets/img/installation/2000s/51',
-  },
+    id: 27,
+    title: 'Praise the Lowered',
+    medium: 'latex paint on wall',
+    year: '2022',
+    other: 'Assistants: Andrew Cline and Anthony Telles',
+    slug: './assets/img/installation/2020s/2',
+  }
 ]
 
 const indexMixedMedia = [
   {
-    id: 7,
-    title: 'The Urban Charro',
-    medium: 'mixed media',
+    id: 28,
+    title: 'The His-Panic Series … He Threw His Mind Out in a Car',
+    medium: 'acrylic and photocopy collage on paper',
     year: '1988',
     other: '',
-    slug: './assets/img/mixed-media/1980s/1',
+    slug: './assets/img/mixed-media/1980s/2',
   },
   {
-    id: 8,
-    title: 'Guitar for the Psyhchedelicpunkmariachi',
+    id: 29,
+    title: "The Urban Charro",
+    medium: "mixed media",
+    year: "1988",
+    other: "",
+    slug: "./assets/img/mixed-media/1980s/3",
+  },
+  {
+    id: 30,
+    title: 'The Cubist Cholo',
+    medium: 'pastel and color pencil on paper',
+    year: '1992',
+    other: '',
+    slug: './assets/img/mixed-media/1990s/3',
+  },
+  {
+    id: 31,
+    title: 'One World, Not Three',
+    medium: 'mixed media',
+    year: '1999',
+    other: '',
+    slug: './assets/img/mixed-media/1990s/9',
+  },
+  {
+    id: 32,
+    title: "Guitar for the Psyhchedelicpunkmariachi",
     medium: '"Mexed" media on wood',
-    year: '2000',
-    other: '',
-    slug: './assets/img/mixed-media/2000s/8',
+    year: "2000",
+    other: "",
+    slug: "./assets/img/mixed-media/2000s/1",
   },
   {
-    id: 9,
-    title: 'Vida, Amor y Muerte #2',
-    medium: 'Pastel and Color Pencil on Paper',
-    year: '2014',
+    id: 33,
+    title: 'La Casa Roja',
+    medium: 'acrylic and collage on panel',
+    year: '2002',
     other: '',
-    slug: './assets/img/mixed-media/2010s/12',
+    slug: './assets/img/mixed-media/2000s/5',
+  },
+  {
+    id: 34,
+    title: "Vida, Amor y Muerte #2",
+    medium: "Pastel and Color Pencil on Paper",
+    year: "2014",
+    other: "",
+    slug: "./assets/img/mixed-media/2010s/1",
+  },
+  {
+    id: 35,
+    title: 'Malintzin; Who is She? ',
+    medium: 'digital photography',
+    year: '2022',
+    other: 'from the "Malintzin; Who is She?" series',
+    slug: './assets/img/mixed-media/2020s/2',
+  },
+  {
+    id: 36,
+    title: 'Praise the Lowered',
+    medium: 'collage',
+    year: '2022',
+    other: '',
+    slug: './assets/img/mixed-media/2020s/3',
   },
 ]
 
@@ -233,11 +304,11 @@ if (indexPainting.length) {
         <h3 class="section-heading text-uppercase">Painting</h3>
       </div>
     `
-  $('#index-sections').append(indexSectionTitle)
+  $("#index-sections").append(indexSectionTitle)
 
   indexPainting.reverse()
 
-  indexPainting.forEach(item => {
+  indexPainting.forEach((item) => {
     const section = `
     <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
@@ -320,8 +391,8 @@ if (indexPainting.length) {
       </div>
   `
 
-    $('#index-sections').append(section)
-    $('#index-modals').append(modal)
+    $("#index-sections").append(section)
+    $("#index-modals").append(modal)
   })
 
   const viewMoreButton = `
@@ -334,7 +405,7 @@ if (indexPainting.length) {
     </div>
 `
 
-  $('#index-sections').append(viewMoreButton)
+  $("#index-sections").append(viewMoreButton)
 }
 
 if (indexPrint.length) {
@@ -343,11 +414,11 @@ if (indexPrint.length) {
         <h3 class="section-heading text-uppercase">Print</h3>
       </div>
     `
-  $('#index-sections').append(indexSectionTitle)
+  $("#index-sections").append(indexSectionTitle)
 
   indexPrint.reverse()
 
-  indexPrint.forEach(item => {
+  indexPrint.forEach((item) => {
     const section = `
     <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
@@ -430,8 +501,8 @@ if (indexPrint.length) {
       </div>
   `
 
-    $('#index-sections').append(section)
-    $('#index-modals').append(modal)
+    $("#index-sections").append(section)
+    $("#index-modals").append(modal)
   })
 
   const viewMoreButton = `
@@ -444,7 +515,7 @@ if (indexPrint.length) {
     </div>
   `
 
-  $('#index-sections').append(viewMoreButton)
+  $("#index-sections").append(viewMoreButton)
 }
 
 if (indexInstallation.length) {
@@ -453,11 +524,11 @@ if (indexInstallation.length) {
         <h3 class="section-heading text-uppercase">Installation</h3>
       </div>
     `
-  $('#index-sections').append(indexSectionTitle)
+  $("#index-sections").append(indexSectionTitle)
 
   indexInstallation.reverse()
 
-  indexInstallation.forEach(item => {
+  indexInstallation.forEach((item) => {
     const section = `
     <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
@@ -540,8 +611,8 @@ if (indexInstallation.length) {
       </div>
   `
 
-    $('#index-sections').append(section)
-    $('#index-modals').append(modal)
+    $("#index-sections").append(section)
+    $("#index-modals").append(modal)
   })
 
   const viewMoreButton = `
@@ -554,7 +625,7 @@ if (indexInstallation.length) {
     </div>
   `
 
-  $('#index-sections').append(viewMoreButton)
+  $("#index-sections").append(viewMoreButton)
 }
 
 if (indexMixedMedia.length) {
@@ -563,11 +634,11 @@ if (indexMixedMedia.length) {
         <h3 class="section-heading text-uppercase">Mixed Media</h3>
       </div>
     `
-  $('#index-sections').append(indexSectionTitle)
+  $("#index-sections").append(indexSectionTitle)
 
   indexMixedMedia.reverse()
 
-  indexMixedMedia.forEach(item => {
+  indexMixedMedia.forEach((item) => {
     const section = `
     <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
@@ -650,8 +721,8 @@ if (indexMixedMedia.length) {
       </div>
   `
 
-    $('#index-sections').append(section)
-    $('#index-modals').append(modal)
+    $("#index-sections").append(section)
+    $("#index-modals").append(modal)
   })
   const viewMoreButton = `
     <div class="text-center">
@@ -663,5 +734,5 @@ if (indexMixedMedia.length) {
     </div>
   `
 
-  $('#index-sections').append(viewMoreButton)
+  $("#index-sections").append(viewMoreButton)
 }

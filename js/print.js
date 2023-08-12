@@ -1,227 +1,227 @@
 const prints = [
   {
-    id: '1',
+    id: 1,
     title: 'San Francisco en Taos',
     medium: 'spraypaint stencil on paper',
     year: '1985',
     other: '',
-    slug: './assets/img/print/1980s/',
+    slug: './assets/img/print/1980s/1',
   },
   {
-    id: '1',
+    id: 2,
     title: 'Charro Muerto',
     medium: 'screenprint on paper',
     year: '1991',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/1',
   },
   {
-    id: '2',
+    id: 3,
     title: 'El Lowrider en Los Rockies',
     medium: 'screenprint on paper',
     year: '1991',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/2',
   },
   {
-    id: '3',
+    id: 4,
     title: 'Jaguarman and the New Heart',
     medium: 'Reduction Woodcut Print',
     year: '1992',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/3',
   },
   {
-    id: '4',
+    id: 5,
     title: 'El Codex del Pachucada',
     medium: 'screenprint on paper',
     year: '1992',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/4',
   },
   {
-    id: '5',
+    id: 6,
     title: 'Ta-Kill-Ya',
     medium: 'lithograph on paper',
     year: '1993',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/5',
   },
   {
-    id: '6',
+    id: 7,
     title: 'A Westside Wedding',
     medium: 'screenprint on paper',
     year: '1993',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/6',
   },
   {
-    id: '7',
+    id: 8,
     title: 'San Francisco en Ranchos',
     medium: 'screenprint on paper',
     year: '1994',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/7',
   },
   {
-    id: '8',
+    id: 9,
     title: 'A Rough Ride',
     medium: 'screenprint on paper',
     year: '1994',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/8',
   },
   {
-    id: '9',
+    id: 10,
     title: 'El Gallo',
     medium: 'screenprint on paper',
     year: '1998',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/9',
   },
   {
-    id: '10',
+    id: 11,
     title: '¡Despiertate! Wake Up!',
     medium: 'screenprint on paper',
     year: '1998',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/10',
   },
   {
-    id: '11',
+    id: 12,
     title: 'Tortillas; Hecho en Aztlan',
     medium: 'screenprint on paper',
     year: '1998',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/11',
   },
   {
-    id: '12',
+    id: 13,
     title: 'Tortillas; Hecho en Aztlan',
     medium: 'screenprint on paper',
     year: '1998',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/12',
   },
   {
-    id: '13',
+    id: 14,
     title: 'Tortillas; Hecho en Aztlan',
     medium: 'screenprint on paper',
     year: '1998',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/13',
   },
   {
-    id: '14',
+    id: 15,
     title: 'Tortillas; Hecho en Aztlan',
     medium: 'screenprint on paper',
     year: '1998',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/14',
   },
   {
-    id: '15',
+    id: 16,
     title: 'Tortillas; Hecho en Aztlan',
     medium: 'screenprint on paper',
     year: '1998',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/15',
   },
   {
-    id: '16',
+    id: 17,
     title: 'Tortillas; Hecho en Aztlan',
     medium: 'screenprint on paper',
     year: '1998',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/16',
   },
   {
-    id: '17',
+    id: 18,
     title: 'Tortillas; Hecho en Aztlan',
     medium: 'screenprint on paper',
     year: '1998',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/17',
   },
   {
-    id: '18',
+    id: 19,
     title: 'Tortillas; Hecho en Aztlan',
     medium: 'screenprint on paper',
     year: '1998',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/18',
   },
   {
-    id: '19',
+    id: 20,
     title: 'Tortillas; Hecho en Aztlan',
     medium: 'screenprint on paper',
     year: '1998',
     other: '',
-    slug: './assets/img/print/1990s/',
+    slug: './assets/img/print/1990s/19',
   },
   {
-    id: '1',
+    id: 21,
     title: 'Sueños de Frida',
     medium: 'screenprint on paper',
     year: '2000',
     other: ' collaborative print - with Sylvia Montero',
-    slug: './assets/img/print/2000s/',
+    slug: './assets/img/print/2000s/1',
   },
   {
-    id: '2',
+    id: 22,
     title: 'El Sol Que tu Eres',
     medium: 'screenprint on paper',
     year: '2005',
     other: '',
-    slug: './assets/img/print/2000s/',
+    slug: './assets/img/print/2000s/2',
   },
   {
-    id: '3',
+    id: 23,
     title: 'Serafin',
     medium: 'screenprint on paper',
     year: '2006',
     other: '',
-    slug: './assets/img/print/2000s/',
+    slug: './assets/img/print/2000s/3',
   },
   {
-    id: '4',
+    id: 24,
     title: 'A Fairy Tale',
     medium: 'screenprint on paper',
     year: '2007',
     other: '',
-    slug: './assets/img/print/2000s/',
+    slug: './assets/img/print/2000s/4',
   },
   {
-    id: '5',
+    id: 25,
     title: 'A Westside Wedding (El Aniversario)',
     medium: 'screenprint on paper',
     year: '2007',
     other: '',
-    slug: './assets/img/print/2000s/',
+    slug: './assets/img/print/2000s/5',
   },
   {
-    id: '1',
+    id: 26,
     title: 'Calaca I',
     medium: 'screenprint on paper',
     year: '2011',
     other: '',
-    slug: './assets/img/print/2010s/',
+    slug: './assets/img/print/2010s/1',
   },
   {
-    id: '2',
+    id: 27,
     title: 'Calaca II',
     medium: 'screenprint on paper',
     year: '2012',
     other: '',
-    slug: './assets/img/print/2010s/',
+    slug: './assets/img/print/2010s/2',
   },
   {
-    id: '3',
+    id: 28,
     title: 'Raza Powered',
     medium: 'screenprint on paper',
     year: '2015',
     other: '',
-    slug: './assets/img/print/2010s/',
+    slug: './assets/img/print/2010s/3',
   },
 ]
 
@@ -243,7 +243,7 @@ if (prints.length) {
                             </div>
                         </div>
                     </div>
-                    <img class="img-fluid" src=${item.slug}${item.id}.jpg alt="..."/>
+                    <img class="img-fluid" src=${item.slug}.jpg alt="..."/>
                 </a>
             </div>
         </div>
@@ -293,7 +293,7 @@ if (prints.length) {
 
                       <img
                         class="img-fluid d-block mx-auto"
-                        src="${item.slug}${item.id}.jpg"
+                        src="${item.slug}.jpg"
                         alt="..."
                       />
 
@@ -339,7 +339,7 @@ $('#decade').change(function () {
                             </div>
                         </div>
                     </div>
-                    <img class="img-fluid" src=${item.slug}${item.id}.jpg alt="..."/>
+                    <img class="img-fluid" src=${item.slug}.jpg alt="..."/>
                 </a>
             </div>
         </div>
@@ -389,7 +389,7 @@ $('#decade').change(function () {
 
                       <img
                         class="img-fluid d-block mx-auto"
-                        src="${item.slug}${item.id}.jpg"
+                        src="${item.slug}.jpg"
                         alt="..."
                       />
 

@@ -1,6 +1,6 @@
 const setDesign = [
   {
-    id: '1',
+    id: 1,
     title: `La Carpa Aztlan, I Don't Speak English Only`,
     medium: '',
     year: '1993',
@@ -12,27 +12,27 @@ const setDesign = [
     Swathmore College Swathmore, PA <br>
     Topeka Performing Arts Center Topeka, KA <br>
     (Also, numerous other venues throughout the United States 1993-2020)`,
-    slug: './assets/img/set-design/1990s/',
+    slug: './assets/img/set-design/1990s/1',
     video: '',
   },
   {
-    id: '2',
+    id: 2,
     title: 'El Sol Que tu Eres,',
     medium: 'scenographer',
     year: '2005',
     other:
       'King Center Theater Denver, CO in 2005 <br> El Centro Su Teatro Denver, CO in 2016',
-    slug: './assets/img/set-design/2000s/',
+    slug: './assets/img/set-design/2000s/1',
     video:
       '<iframe width="100%" style="min-height: 500px;" src="https://www.youtube.com/embed/3VC9ayLe4hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '3',
+    id: 3,
     title: 'Refuge',
     medium: 'mural backdrop',
     year: '2022',
     other: 'The Curious Theater, Denver, CO <br> set design by Markus Henry',
-    slug: './assets/img/set-design/2020s/',
+    slug: './assets/img/set-design/2020s/1',
     video:
       '<iframe width="100%" style="min-height: 500px;" src="https://www.youtube.com/embed/BI5I-G0gBew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
@@ -56,7 +56,7 @@ if (setDesign.length) {
                               </div>
                           </div>
                       </div>
-                      <img class="img-fluid" src=${item.slug}${item.id}.jpg alt="..."/>
+                      <img class="img-fluid" src=${item.slug}.jpg alt="..."/>
                   </a>
               </div>
           </div>
@@ -108,7 +108,7 @@ if (setDesign.length) {
                             ? item.video
                             : `<img
                               class="img-fluid d-block mx-auto"
-                              src="${item.slug}${item.id}.jpg"
+                              src="${item.slug}.jpg"
                               alt="..."
                             />`
                         }
@@ -155,7 +155,7 @@ $('#decade').change(function () {
                               </div>
                           </div>
                       </div>
-                      <img class="img-fluid" src=${item.slug}${item.id}.jpg alt="..."/>
+                      <img class="img-fluid" src=${item.slug}.jpg alt="..."/>
                   </a>
               </div>
           </div>
@@ -205,7 +205,7 @@ $('#decade').change(function () {
   
                         <img
                           class="img-fluid d-block mx-auto"
-                          src="${item.slug}${item.id}.jpg"
+                          src="${item.slug}.jpg"
                           alt="..."
                         />
   

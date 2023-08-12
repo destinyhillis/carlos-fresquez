@@ -1,6 +1,6 @@
 const referenceMaterials = [
   {
-    id: '1',
+    id: 1,
     title: 'Carlos Fresquez - Regis University DML Digital Initiatives',
     medium: '',
     year: '',
@@ -10,7 +10,7 @@ const referenceMaterials = [
       '<iframe width="560" height="315" src="https://www.youtube.com/embed/zbLgRnqsczs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '2',
+    id: 2,
     title: 'Carlos Fresquez - Bonfils-Stanton Foundation; 2018 Artist Award',
     medium: '',
     year: '',
@@ -20,7 +20,7 @@ const referenceMaterials = [
       '<iframe width="560" height="315" src="https://www.youtube.com/embed/RFwBOFGRzg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '3',
+    id: 3,
     title:
       'Making a positive impact through art making with Carlos Fresquez - Beyond the Gallery ep. 52',
     medium: '',
@@ -31,7 +31,7 @@ const referenceMaterials = [
       '<iframe width="560" height="315" src="https://www.youtube.com/embed/qag3HZ9u9y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '4',
+    id: 4,
     title: 'Rhythm of the Neighborhood - Carlos Fresquez',
     medium: '',
     year: '',
@@ -41,17 +41,17 @@ const referenceMaterials = [
       '<iframe width="560" height="315" src="https://www.youtube.com/embed/eMrVu4UgmBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '5',
+    id: 5,
     title: 'Sangre Colorado; CVA exhibit explores the work of Carlos Fresquez',
     medium: '',
     year: '',
     other: '',
     slug: './assets/img/reference-materials/',
     video:
-      'https://www.youtube.com/watch?v=0iepk7Pjy-Y&ab_channel=MetropolitanStateUniversityofDenver',
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/0iepk7Pjy-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
-    id: '6',
+    id: 6,
     title: 'Fear No Art - Featuring Carlos Fresquez',
     medium: 'Carlos A. Fresquez - by Harrison Sadler',
     year: '',
@@ -61,7 +61,7 @@ const referenceMaterials = [
       '<iframe width="560" height="315" src="https://www.youtube.com/embed/7LbnNOTspJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '7',
+    id: 7,
     title: 'Carlos A. Fresquez - by Harrison Sadler',
     medium: '',
     year: '',
@@ -71,7 +71,7 @@ const referenceMaterials = [
       '<iframe width="560" height="315" src="https://www.youtube.com/embed/T96fOfWW-9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '8',
+    id: 8,
     title:
       'Cuatro; Carlos Fresquez Discusses His Installation - Denver Art Museum',
     medium: '',

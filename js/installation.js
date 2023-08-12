@@ -8,7 +8,7 @@ for (let i = 1; i <= 10; i++) {
     medium: 'installation',
     year: '1991',
     other: 'EDGE Gallery, Photography by Chuck Ault',
-    slug: './assets/img/installation/1990s/',
+    slug: `./assets/img/installation/1990s/${i}`,
   })
 }
 
@@ -19,7 +19,7 @@ installations.push(
     medium: 'installation',
     year: '1998',
     other: `Mixed Media with my Grandfather's 1930's Saddle`,
-    slug: './assets/img/installation/1990s/',
+    slug: './assets/img/installation/1990s/11',
   },
   {
     id: 12,
@@ -27,7 +27,7 @@ installations.push(
     medium: 'installation',
     year: '1998',
     other: `Mixed Media with my Grandfather's 1930's Saddle`,
-    slug: './assets/img/installation/1990s/',
+    slug: './assets/img/installation/1990s/12',
   }
 )
 
@@ -38,7 +38,7 @@ for (let i = 13; i <= 19; i++) {
     medium: 'installation',
     year: '1995',
     other: '',
-    slug: './assets/img/installation/1990s/',
+    slug: `./assets/img/installation/1990s/${i}`,
   })
 }
 
@@ -49,7 +49,7 @@ for (let i = 20; i <= 29; i++) {
     medium: 'installation',
     year: '1995',
     other: 'Photography by Chuck Ault',
-    slug: './assets/img/installation/1990s/',
+    slug: `./assets/img/installation/1990s/${i}`,
   })
 }
 
@@ -60,7 +60,7 @@ for (let i = 30; i <= 37; i++) {
     medium: 'installation',
     year: '1998',
     other: 'Photography by Chuck Ault',
-    slug: './assets/img/installation/1990s/',
+    slug: `./assets/img/installation/1990s/${i}`,
   })
 }
 
@@ -71,7 +71,7 @@ for (let i = 38; i <= 42; i++) {
     medium: 'installation',
     year: '1998',
     other: '',
-    slug: './assets/img/installation/1990s/',
+    slug: `./assets/img/installation/1990s/${i}`,
   })
 }
 
@@ -81,119 +81,135 @@ installations.push({
   medium: 'installation',
   year: '',
   other: '',
-  slug: './assets/img/installation/1990s/',
+  slug: './assets/img/installation/1990s/43',
 })
 
 installations.push(
   {
-    id: 1,
+    id: 44,
     title: '',
     medium: 'installation',
     year: '',
     other: '',
-    slug: './assets/img/installation/2000s/',
+    slug: './assets/img/installation/2000s/1',
   },
   {
-    id: 2,
+    id: 45,
     title: 'Los Supersonicos',
     medium: 'installation',
     year: '',
     other: '',
-    slug: './assets/img/installation/2000s/',
+    slug: './assets/img/installation/2000s/2',
   },
   {
-    id: 3,
+    id: 56,
     title: 'Los Supersonicos',
     medium: 'installation',
     year: '',
     other: '',
-    slug: './assets/img/installation/2000s/',
+    slug: './assets/img/installation/2000s/3',
   },
   {
-    id: 4,
+    id: 57,
     title: 'Homage to Jim Dine',
     medium: 'installation',
     year: '2005',
     other: '',
-    slug: './assets/img/installation/2000s/',
+    slug: './assets/img/installation/2000s/4',
   }
 )
-
+let j = 57
 for (let i = 5; i <= 30; i++) {
   installations.push({
-    id: i,
+    id: j++,
     title: 'Salon de los Ilegales',
     medium: 'altered thriftstore landscapes (ready-made added)',
     year: '2005-present',
     other: '',
-    slug: './assets/img/installation/2000s/',
+    slug: `./assets/img/installation/2000s/${i}`,
   })
 }
 
 installations.push(
   {
-    id: 31,
+    id: 83,
     title: 'La Escalera',
     medium: 'installation',
     year: '',
     other: '',
-    slug: './assets/img/installation/2000s/',
+    slug: './assets/img/installation/2000s/31',
   },
   {
-    id: 32,
+    id: 84,
     title: 'Ofreda para mi Abuela-Lorencita Fresquez',
     medium: 'installation',
     year: '2001',
     other: '',
-    slug: './assets/img/installation/2000s/',
+    slug: './assets/img/installation/2000s/32',
   },
   {
-    id: 33,
+    id: 85,
     title: 'Ofreda para mi Abuela-Lorencita Fresquez (detail)',
     medium: 'installation',
     year: '2001',
     other: '',
-    slug: './assets/img/installation/2000s/',
+    slug: './assets/img/installation/2000s/33',
   },
   {
-    id: 1,
+    id: 86,
     title: 'Manifest Destiny',
     medium: 'acrylic on wall',
     year: 'ca. 2013',
     other: '',
-    slug: './assets/img/installation/2010s/',
+    slug: './assets/img/installation/2010s/1',
   },
   {
-    id: 2,
+    id: 87,
     title: 'Manifest Destiny',
     medium: 'acrylic on wall',
     year: 'ca. 2013',
     other: '',
-    slug: './assets/img/installation/2010s/',
+    slug: './assets/img/installation/2010s/2',
   },
   {
-    id: 3,
+    id: 88,
     title: 'Chicanos Avanzan - Converse All Star',
     medium: 'acrylic on wall',
     year: '2016',
     other: '',
-    slug: './assets/img/installation/2010s/',
+    slug: './assets/img/installation/2010s/3',
   },
   {
-    id: 4,
+    id: 89,
     title: 'Chicanos Avanzan - Converse All Star',
     medium: 'acrylic on wall',
     year: '2016',
     other: '',
-    slug: './assets/img/installation/2010s/',
+    slug: './assets/img/installation/2010s/4',
   },
   {
-    id: 5,
+    id: 90,
     title: 'Perilous Journey',
     medium: 'latex paint on wall',
     year: '2018',
     other: 'Assistant: Lorena Aranda',
-    slug: './assets/img/installation/2010s/',
+    slug: './assets/img/installation/2010s/5',
+  },
+  {
+    id: 91,
+    title: 'Malintzin; Who is She?',
+    medium: 'digital photography',
+    year: '2022',
+    other: '',
+    slug: './assets/img/installation/2020s/1',
+  },
+  {
+    id: 92,
+    title: 'Praise the Lowered',
+    medium: 'latex paint on wall',
+    year: '2022',
+    other: 'Assistants: Andrew Cline and Anthony Telles',
+    slug: './assets/img/installation/2020s/2',
   }
 )
 
@@ -215,7 +231,7 @@ if (installations.length) {
                             </div>
                         </div>
                     </div>
-                    <img class="img-fluid" src=${item.slug}${item.id}.jpg alt="..."/>
+                    <img class="img-fluid" src=${item.slug}.jpg alt="..."/>
                 </a>
             </div>
         </div>
@@ -265,7 +281,7 @@ if (installations.length) {
 
                       <img
                         class="img-fluid d-block mx-auto"
-                        src="${item.slug}${item.id}.jpg"
+                        src="${item.slug}.jpg"
                         alt="..."
                       />
 
@@ -311,7 +327,7 @@ $('#decade').change(function () {
                             </div>
                         </div>
                     </div>
-                    <img class="img-fluid" src=${item.slug}${item.id}.jpg alt="..."/>
+                    <img class="img-fluid" src=${item.slug}.jpg alt="..."/>
                 </a>
             </div>
         </div>
@@ -361,7 +377,7 @@ $('#decade').change(function () {
 
                       <img
                         class="img-fluid d-block mx-auto"
-                        src="${item.slug}${item.id}.jpg"
+                        src="${item.slug}.jpg"
                         alt="..."
                       />
 
