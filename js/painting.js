@@ -973,6 +973,28 @@ const paintings = [
     other: '',
     slug: './assets/img/painting/2020s/2',
   },
+  {
+    id: 120,
+    title: 'Nepantla',
+    medium: 'acrylic on canvas',
+    year: '2024',
+    other: '',
+    slug: './assets/img/painting/2020s/3',
+  },
+  {    id: 121,
+    title: 'Raza Unida!',
+    medium: 'acrylic on canvas',
+    year: '2024',
+    other: '',
+    slug: './assets/img/painting/2020s/4',
+  },
+  {    id: 122,
+    title: 'Mi Amor',
+    medium: 'acrylic on canvas',
+    year: '2024',
+    other: '',
+    slug: './assets/img/painting/2020s/5',
+  }
 ]
 
 paintings.reverse()
